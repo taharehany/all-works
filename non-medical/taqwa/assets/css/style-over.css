@@ -1,0 +1,329 @@
+/*** start global ***/
+@font-face {
+    font-family: 'DINNextLTW23-Medium';
+    src: url('../fonts/DINNextLTW23-Medium.eot');
+    src: url('../fonts/DINNextLTW23-Medium.woff2') format('woff2'),
+         url('../fonts/DINNextLTW23-Medium.woff') format('woff'),
+         url('../fonts/DINNextLTW23-Medium.ttf') format('truetype'),
+         url('../fonts/DINNextLTW23-Medium.svg#DINNextLTW23-Medium') format('svg'),
+         url('../fonts/DINNextLTW23-Medium.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+.wrapper {
+    width: 100%;
+    overflow: hidden
+}
+.navbar-expand-lg .navbar-nav {
+    flex-grow: inherit;
+        justify-content: flex-start;
+}
+.navbar-light .navbar-nav .nav-link {
+    font-size: 16px
+}
+.navbar-light .navbar-collapse {
+    overflow-y: hidden!important;
+    height: auto!important
+}
+
+.navbar {
+    background-color: rgba(255,255,255,.7);
+    border-radius: 0px 0px 20px 20px;
+}
+.navbar-light .navbar-collapse .navbar-nav li {
+    text-align: right
+}
+.is-sticky .navbar {
+    background-color: #FFF
+}
+.navbar-brand {
+    padding: 0 0 0 15px
+}
+.navbar-brand img {
+    width: 65%
+}
+.navbar-light {
+    padding: 10px 0
+}
+.hero-slider .hs-item .hero-text h1 .diff {
+    color: #fff;
+    font-size: 28px;
+    display: block
+}
+.hero-slider .hs-item .hero-text p {
+    color: #fff;
+    font-size: 40px;
+    margin-top: 20px
+}
+.hero-slider .hs-item .hero-text h1 {
+    font-weight: 500
+}
+.header-info-text .contact-info li a {
+    color: #fff
+}
+.about-us-text p {
+    position: relative;
+    margin-right: 20px;
+    font-size: 19px;
+    line-height: 1.8;
+}
+.about-us-text p::before {
+    content: '';
+    position: absolute;
+    right: -25px;
+    top: 12px;
+    width: 12px;
+    height: 12px;
+    background: #006666;
+    transform: rotate(45deg);
+}
+.about-section .about-us-text h2 {
+    margin-bottom: 30px;
+}
+.about-section .about-us-img {
+    clip-path: polygon(0% 15%, 5% 15%, 5% 5%, 95% 5%, 95% 15%, 100% 15%, 100% 90%, 95% 90%, 95% 100%, 5% 100%, 5% 90%, 0% 90%);
+    -webkit-clip-path: polygon(0% 15%, 5% 15%, 5% 5%, 95% 5%, 95% 15%, 100% 15%, 100% 90%, 95% 90%, 95% 100%, 5% 100%, 5% 90%, 0% 90%);
+}
+.default-btn {
+    font-weight: 500;
+    font-size: 17px;
+}
+.about-section .about-us-text .default-btn {
+    margin-top: 30px
+}
+.call-to-action .call-to-action-text {
+    padding-right: 75px;
+}
+.call-to-action .call-to-action-text i {
+    right: 0
+}
+
+.call-to-action .call-to-action-text h3 {
+    font-size: 20px;
+    line-height: 1.7;
+    font-weight: 500
+}
+.cta-area {
+    background: url(../img/back.jpg) 50% 100% ;
+    background-size: cover;
+    
+}
+.cta-area .cta-text-content {
+    margin-bottom: 200px;
+    max-width: inherit;
+    text-align: right
+}
+.cta-area .cta-text-content p {
+    margin: 25px 0 0px;
+    line-height: 1.7;
+    color: #fff;
+    padding: 0 0 0 50%;   
+    font-size: 19px
+}
+.cta-area .cta-text-content h3 {
+    color: #059cd0;
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 30px
+}
+.cta-doctor-img .cta-contant:nth-child(1) {
+  font-size: 26px;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 25px;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+}
+.cta-doctor-img .cta-contant:nth-child(2) {
+  font-size: 26px;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 25px;
+    position: absolute;
+    top: 90px;
+    left: 40px;
+}
+.cta-doctor-img .cta-contant a {
+    color: #FFF;
+    font-weight: 500;
+}
+.cta-area img.house {
+    position: absolute;
+    width: 30%;
+    bottom: 14%;
+    left: 30px;
+    animation: shake 5s linear infinite;
+    animation-direction: alternate
+}
+@keyframes shake {
+    0% { transform: translateY(0px)}
+    100% { transform: translateY(20px) }
+}
+.single-card:hover {
+    box-shadow: none;
+    background:transparent;
+    border-color: none;
+}
+.form-control {
+    text-align: right
+}
+
+.appointment-area .contant-number h3:first-child {
+    bottom: 100px;
+}
+.appointment-area .contant-number h3:nth-child(2) {
+    bottom: 200px;
+}
+.cta-area {
+    overflow: hidden
+}
+.cta-area .cta-doctor-img {
+    position: absolute;
+    bottom: -40px;
+    right: -7%;
+}
+.cta-area .cta-doctor-img img {
+    max-width: 100%;
+}
+
+.single-feedback .profile-content img {
+    width: 90%;
+    border: none
+}
+.single-feedback .profile-content img:hover {
+    border: none
+}
+.single-feedback .feedback-text {
+    background-color: transparent;
+    padding: 5px;
+} 
+.single-feedback .profile-content img {
+    border-radius: 0
+}
+
+.map2 {
+    height: 100%;
+    width: 100%;
+}
+.owl-theme-2 button.owl-next {
+    right: -70px;
+    border-radius: 0!important;
+    background-color: transparent!important;
+    border: none!important
+}
+.owl-theme-2 button.owl-prev{
+    left: -70px;
+    border-radius: 0!important;
+    background-color: transparent!important;
+    border: none!important
+}
+img {
+    width: 100%;
+    height: auto;
+}
+
+.owl-theme-2 button.owl-prev, .owl-theme-2 button.owl-next {
+    
+}
+.gallery {
+    padding:  100px 0 50px 0
+}
+.gallery .box {
+    margin-bottom: 30px;
+    overflow: hidden;
+    width: 100%;
+    border: 2px solid #1b6386;
+    position: relative
+}
+.gallery .box img {
+    transition: all .3s
+}
+.gallery .box:hover img {
+    transform: scale(1.2,1.2)
+}
+
+.over_box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+    text-align: center;
+    padding: 10px;
+    top: 80%;
+    z-index: 2;
+    transition: all .4s;
+    direction: rtl
+}
+.gallery .box:hover .over_box {
+    top: 0
+}
+.over_box h3 {
+    color: #FFF;
+    font-weight: 500;
+    font-size: 22px;
+}
+.over_box p {
+    color: #FFF;
+}
+
+.price_be {
+    text-decoration: line-through;
+    
+}
+.price_af {
+    font-size: 23px;
+    font-weight: bold
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.patient-feedback {
+    padding: 50px 0 100px 0
+}
+
+.appointment-area .contant-number h3 {
+    background-color: rgb(166, 163, 131)
+}
+footer.copy {
+    padding: 30px 0
+}
+.contact_box{
+    background-color: #a8a480;
+    padding: 10px;
+    text-align: center
+}
+.contact_box h3 {
+    font-size: 20px
+}
+.contact_box h3 a {
+    color: #FFF;
+    font-weight: 500;
+    font-size: 18px
+}
+.contact_box h3 i {
+    color: #000;
+    display: block;
+    margin: auto;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #FFF;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+  
+
+.appointment-area .appointment-form {
+    padding-top: 70px;
+}
+

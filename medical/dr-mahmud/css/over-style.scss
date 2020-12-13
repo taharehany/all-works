@@ -1,0 +1,252 @@
+/**/
+.colorlib-nav {
+    #colorlib-logo {
+        a {
+            color: #3c97e8;
+            position: relative;
+            font-size: 26px;
+            letter-spacing: -1px;
+            font-weight: 700;
+
+            img {
+                max-width: 250px
+            }
+        }
+    }
+
+    .top-menu {
+        padding-top: 0;
+
+        .top {
+            padding: 15px 0 15px 0;
+
+            .justify {
+                display: flex;
+                justify-content: space-between;
+                align-items: center
+            }
+        }
+    }
+
+    ul {
+        li.active {
+            > a {
+                color: #ffffff;
+            }
+        }
+
+        li {
+
+            a:hover,
+            a:focus {
+                color: #fff;
+            }
+        }
+    }
+}
+
+/**/
+
+/**/
+.colorlib-nav {
+
+    .num,
+    .loc {
+        .icon {
+            right: 0;
+            left: auto;
+            width: 40px;
+            height: 40px;
+
+            i {
+                height: auto;
+                font-size: 20px
+            }
+        }
+
+        p {
+            padding-left: 0;
+            padding-right: 50px;
+            margin-bottom: 0
+        }
+    }
+}
+
+/**/
+
+/**/
+#colorlib-hero {
+    .flexslider {
+        .slides {
+            li {
+                &::after {
+                    background: rgba(0, 0, 0, 0.42);
+                }
+            }
+        }
+    }
+
+    .flexslider .slider-text > .slider-text-inner .btn {
+        letter-spacing: 0
+    }
+}
+
+/**/
+
+/**/
+#colorlib-about {
+    .header {
+        font-size: 30px;
+        font-weight: 600;
+        color: #424242;
+    }
+
+    .about-text {
+        p {
+            font-size: 17px;
+            color: #000;
+            margin-bottom: 13px;
+
+            i {
+                font-size: 15px;
+                color: #3c97e8
+            }
+        }
+    }
+
+    .btn.btn-lg {
+        padding: 14px 25px !important;
+    }
+
+    .call-us-about {
+        margin-bottom: 20px
+    }
+
+    .about-img {
+        border-radius: 15px;
+    }
+}
+
+/**/
+
+/**/
+#colorlib-appointment {
+    h2 {
+        margin-bottom: 40px;
+        display: block
+    }
+}
+
+/**/
+
+/**/
+#colorlib-services {
+    .services {
+        padding-top: 1.5em;
+
+        &:hover,
+        &:focus {
+            .icon {
+                background-color: transparent
+            }
+        }
+
+        .icon {
+            width: auto;
+            height: auto;
+            background-color: transparent;
+            display: block;
+            text-align: center;
+            margin-bottom: 30px;
+            position: static;
+            -webkit-border-radius: 0;
+            -moz-border-radius: 0;
+            -ms-border-radius: 0;
+            border-radius: 0;
+
+
+            img {
+                max-width: 100%
+            }
+        }
+
+        .desc {
+            text-align: center;
+            padding-left: 0;
+
+            h3 {
+                line-height: 1.7;
+                height: 40px;
+            }
+        }
+    }
+
+    .justify-ser {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+/**/
+
+/**/
+.features-wrap {
+    h2 {
+        font-weight: 600
+    }
+
+    .details {
+        p {
+            font-size: 18px;
+            font-weight: 500
+        }
+    }
+
+    .call-us {
+        p {
+            font-size: 25px;
+            color: #fff !important;
+            font-weight: 700;
+        }
+
+        a {
+            border: 2px solid #fff !important;
+            color: #fff !important;
+            margin-right: 0
+        }
+    }
+}
+
+/**/
+
+/**/
+.contact-info-wrap {
+    margin-top: 40px;
+
+    p {
+        a {
+            color: #555
+        }
+    }
+
+    .box {
+        padding: 20px;
+        box-shadow: 0px 0px 30px -15px #bdbdbd;
+
+        span {
+            i {
+                font-size: 30px;
+                color: #3c97e8
+            }
+        }
+    }
+}
+
+/**/
+
+/**/
+#colorlib-footer {
+    padding: 0
+}
+
+/**/

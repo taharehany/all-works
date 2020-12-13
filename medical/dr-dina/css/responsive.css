@@ -1,0 +1,83 @@
+@media (max-width: 767px) {
+  .header-area .main-header-area {
+    padding: 10px 0px;
+  }
+}
+@media (max-width: 767px) {
+  .slider_area .poly_img {
+    display: none;
+  }
+
+  .compapy_info .company_info {
+    margin-top: 0;
+  }
+
+  .service_area .single_service {
+    padding: 10px 0px 30px 10px;
+  }
+  .service_area .single_service h3 {
+    font-size: 18px;
+  }
+  .service_area .single_service3 img.arrow {
+    left: 75%;
+    top: 80%;
+    max-width: 100px;
+    height: 150px;
+    transform: rotate(0);
+  }
+
+  .accordion_area .faq_ask #accordion button {
+    font-size: 14px;
+  }
+  .accordion_area .faq_ask #accordion .card .card-body {
+    max-width: 800px;
+    padding: 10px 20px 20px;
+    font-size: 13px;
+    line-height: normal;
+  }
+
+  .compapy_info .decore {
+    max-width: 200px;
+  }
+
+  .contact-section {
+    padding: 50px 0 50px;
+  }
+  .contact-section .section_title h3 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 500px) {
+  .header-area .logo a {
+    font-size: 25px;
+  }
+  .header-area .logo a span {
+    font-size: 33px;
+  }
+
+  .slider_area .single_slider .slider_text .text h2 {
+    font-size: 27px;
+  }
+  .slider_area .single_slider .slider_text .text h3 {
+    font-size: 16px;
+  }
+
+  .slider_area .single_slider .ilstrator_thumb {
+    margin-top: 30px;
+  }
+
+  .testimonial_area .single_testmonial p {
+    font-size: 11px;
+  }
+
+  .contact-section .contact-contain {
+    padding: 20px;
+  }
+
+  .boxed-btn3 {
+    font-size: 14px;
+    padding: 13px 30px;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */

@@ -1,0 +1,1 @@
+$(window).on("load",function(){$(".portfolio-items").length&&($(".portfolio-items").isotope(),$(".portfolio-filter ul li").on("click",function(){$(".portfolio-filter ul li").removeClass("current"),$(this).addClass("current");var o=$(this).attr("data-filter");$(".portfolio-items").isotope({filter:o,animationOptions:{duration:750,easing:"linear",queue:!1}})}))});

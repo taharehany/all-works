@@ -1,0 +1,247 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+body {
+    font-family: 'Droid Arabic Kufi', serif;
+}
+.pl_pr {
+    padding-left: 100px;
+    padding-right: 100px
+}
+.section-title {
+    text-align: center
+}
+.section-title h1, .section-title h2 {
+    background-color: transparent;
+    font-size: 40px;
+}
+.site-btn {
+    min-width: auto;
+    padding: 15px 30px;
+    margin-right: 0;
+} 
+.site-btn.sb-light {
+    font-size: 19px;
+}
+/***** start slider *****/
+.slide-content h2 {
+    color: #fff;
+    font-size: 40px;
+    line-height: 60px;
+}
+.slide-content p {
+    font-size: 20px;
+    color: #FFFF;
+}
+.slide-content .descrip {
+    font-size: 15px
+}
+.hero-slider .owl-nav .owl-next {
+    margin-right: 0px;
+    letter-spacing: normal;
+}
+.left-bar {
+
+    display: none;
+}
+
+
+/***** start nav *****/
+.logo-area {
+    background-color: transparent
+}
+.phone-number {
+    border-radius: 10px
+}
+.phone-number a {
+    color: #FFF;
+}
+.nav-menu ul li a {
+    font-weight: 600
+}
+.nav-menu {
+    margin-right: 40px
+}
+
+
+
+
+/***** start about section *****/
+.intro-section {
+    padding-top: 150px
+}
+.intro-text p {
+    margin-bottom: 15px;
+}
+.intro-section .sp-title {
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+.intro-section .ser_s p {
+    margin-bottom: 0
+}
+.intro-section .ser_s p i {
+    color: #9caf1a
+}
+.site-btn {
+    margin-right: 0px;
+    margin-top: 20px
+}
+.site-btn:after, .site-btn:before {
+    position: absolute;
+    content: "";
+    width: 26px;
+    height: 4px;
+    left: -15px;
+    right: auto
+}
+.sp-title span {
+    background: #9caf1a;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: #222222;
+    display: inline-block;
+    color: #FFF;
+}
+
+
+
+/***** start service *****/
+.service-section {
+    background-color: #ececec;
+}
+.service-section .section-title h2 {
+    margin-bottom: 15px
+}
+.service-box {
+    text-align: center;
+    padding: 35px 0px 20px 0;
+    background-color: #FFF;
+}
+.service-box .sb-icon {
+    margin: 0 auto 30px
+}
+.service-box .sb-icon .sb-img-icon {
+    position: static;
+}
+.service-box:hover .sb-icon .sb-img-icon {
+    margin-bottom: auto;
+} 
+
+.service-box .sb-icon {
+    margin: auto
+}
+.service-box:hover .sb-icon {
+    background-color: transparent;
+}
+.service-box .sb-icon .sb-img-icon img {
+    opacity: .8;
+    width: 100%;
+    height: auto;
+    max-height: none
+}
+.service-box .sb-icon {
+    margin-bottom: 30px;
+    width: 80%;
+    height: 150px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.service-box .sb-icon::after {
+    display: none
+}
+.service-box p {
+    height: 120px;
+    padding: 0 20px
+}
+.move {
+	display: inline-block;
+	padding: 10px 15px;
+	background: #9caf1a;
+	font-weight: 700;
+    border-radius: 10px
+}
+.move a {
+    color: #FFF;
+    
+}
+.diff {
+    color: #889629
+}
+
+/*** start call to action ***/
+.cta-section .cta-content h2 {
+    line-height: 1.7;
+}
+.cta-section .cta-content .cta-img-icon:last-child {
+    margin-right: 40px
+}  
+
+
+
+/*** start conatct ***/
+.contact_con {
+    background-color: #F5F5F5;
+    padding: 40px 20px;
+    
+}
+.contact-form input, .contact-form textarea {
+    background-color: #FFF
+}
+.contact-form {
+    padding-top: 0
+}
+.contact-info {
+    margin-bottom: 20px!important
+}
+.contact-info .box {
+    background-color: #FFF;
+    transition: all .4s;
+    color: #a0b223;
+    border: 1px solid #ddd;
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 22px;
+    box-shadow: none;
+    font-weight: bold
+}
+.contact-info .box:hover {
+    box-shadow: 1px 1px 1px #CCC;
+    border: 1px solid transparent 
+}
+.contact-info .box p {
+    font-size: 18px;
+    margin-top: 15px;
+}
+.contact-info .box a {
+    color: #555
+}
+.contact-info a:hover, .contact-info a:focus {
+    color: #ee743d;
+}
+
+.map-area {
+    height: 600px
+}
+
+/*** start footer ***/
+.footer-section .copyright {
+    position: static;
+    color: #525252;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+} 
+
+.footer-section {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    border-top: 1px solid #c8c8c8;
+    position: relative;
+}
+
+

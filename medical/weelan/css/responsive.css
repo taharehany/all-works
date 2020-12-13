@@ -1,0 +1,210 @@
+@media (max-width:1199px){
+	.header_area .navbar .nav .nav-item {
+		margin-right: 5px;
+	}
+}
+
+@media (max-width:991px){
+	.navbar-toggler {
+		border: none;
+		border-radius: 0px;
+		padding: 0px;
+		cursor: pointer;
+	}
+
+	.navbar-toggler span{
+		display: block;
+		width: 25px;
+		height: 3px;
+		background: #fff;
+		margin: auto;
+		margin-bottom: 4px;
+		transition: all 400ms linear;
+		cursor: pointer;
+	}
+	.navbar .container{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.nav {
+		padding: 25px 0 0;
+	}
+	.header_top .nav{
+		padding: 0px;
+	}
+	.header_area .navbar .nav .nav-item .nav-link{
+		line-height: 40px;
+		margin-right: 0px;
+		display: block;
+		border-bottom: 1px solid #ededed33;
+		border-radius: 0px;
+	}
+	.header_area.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
+		line-height: 40px;
+	}
+	.header_area .navbar .search{
+		margin-left: 0px;
+	}
+	.header_area .navbar-collapse{
+		max-height: fit-content;
+        overflow-y: hidden;
+        text-align: right;
+	}
+    .header_area .navbar .nav .nav-item:last-child {
+        margin-right: 0;
+    }
+	.header_area .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
+		padding: 0px 15px;
+	}
+	.header_area .navbar .nav .nav-item {
+		margin-right: 0px;
+	}
+    .header_area .navbar .nav .nav-item .nav-link {
+        color: #d0d0d0
+    }
+    section.banner-area .banner-image img {
+        left: 0;
+        opacity: 0.2
+    }
+    section.banner-area .poabs {
+        position: absolute
+    }
+    section.banner-area {
+        height: 100vh;
+        padding-top: 100px;
+    }
+    section.banner-area .banner-image img {
+        max-width: 100%
+    }
+    section.services {
+        clip-path: ellipse(150% 55% at 50% 45%);
+    }
+    section.dffers .offers-item {
+        padding-right: 10px;
+        padding-left: 10px
+    }
+    section.dffers .dffers-text h2 {
+        font-size: 14px
+    }
+}
+
+@media (max-width:767px){
+    section.banner-area .banner-text .down {
+        font-size: 30px;
+    } 
+    section.banner-area .banner-text {
+        padding: 0
+    }
+    section.about .item h3 {
+        font-size: 35px;
+    }
+    section.services .serv-text::before {
+        transform: skewY(-10deg);
+    }
+    section.services .serv-text::before, section.services .serv-text::after {
+        height: 150%
+    }
+    section.services .serv-text {
+        margin-top: -15px
+    }
+    section.services {
+        clip-path: ellipse(230% 55% at 50% 44%);
+    }
+    section.dffers {
+        padding: 50px 0;
+    }
+    section.banner-area .banner-text {
+        text-align: center
+    }
+    section.contact .box {
+        margin-bottom: 10px
+    }
+}
+@media (max-width:600px){
+	
+}
+@media (max-width:575px){
+    section.dffers .offers-item {
+        height: auto
+    }
+    section.call-now .call-content h2 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width:520px){
+    section.banner-area .banner-text h1 {
+        font-size: 35px;
+    }
+    section.banner-area .banner-text .down {
+        font-size: 18px;
+    }
+    section.banner-area .banner-text .up span {
+        font-size: 36px;
+    }
+}
+@media (max-width:480px){
+	.header_area .navbar-collapse{
+		max-height: 280px;
+	}
+    .main_menu .navbar-brand img {
+        max-width: 140px;
+    }
+    .header-contacts__inner {
+        font-size: 13px;
+        padding-left: 44px;
+    }
+    section.call-now .call-content h2 {
+        font-size: 35px;
+    }
+}
+
+@media (max-width:400px){
+	section.banner-area .banner-text h1 {
+        font-size: 27px;
+    }
+    section.banner-area .banner-text .up {
+        font-size: 22px;
+    }
+    .main_btn, .main_btn_light {
+        font-size: 13px;
+        padding: 10px 20px;
+    }
+    section.call-now .call-content h2 {
+        font-size: 25px; 
+    }
+    section.call-now {
+        height: 220px;
+        min-height: 220px
+    }
+    
+    .header-contacts {
+        overflow: hidden;
+        padding-left: 5px;
+    }
+    .header-contacts__number {
+        font-size: 15px;
+        line-height: 21px;
+        margin-top: 0;
+    }
+    .main_menu .navbar-brand img {
+        max-width: 110px;
+    }
+    .navbar-brand {
+        margin-right: 0
+    }
+    .title-section .title {
+        font-size: 30px;
+    }
+}
+@media (max-width:350px){ 
+    .header-contacts__inner {
+        font-size: 10px;
+    }
+    .header-contacts__number {
+        font-size: 11px; 
+    }
+    .header-contacts i {
+        font-size: 25px;
+    }
+}

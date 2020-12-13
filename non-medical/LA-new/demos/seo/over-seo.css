@@ -1,0 +1,39 @@
+.slider-title h2 {
+    font-size: 40px;
+    line-height: 1.5;
+    letter-spacing: -1px;
+    font-weight: 700;
+    margin-bottom: 26px;
+}
+.wa-green{
+    background: #08b71c !important;
+}
+.play-icon i {
+    width: 70px;
+    height: 70px;
+    line-height: 71px;
+    font-size: 24px;
+    background: linear-gradient(60deg, #e85750, #e85750, #e85750, #f37055);
+    color: #FFF;
+    text-align: center;
+    border-radius: 50%;
+    padding-left: 4px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: transform .3s ease;
+    animation: animdgradient 3s ease alternate infinite;
+    background-size: 300% 300%;
+}
+.badge.badge-default {
+    border: 1px solid #e85750;
+    color: #e85750;
+}
+.badge.badge-pill.price.badge-default {
+    padding: 15px 75px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+#oc-clients .oc-item img{
+    height: 70px;
+}

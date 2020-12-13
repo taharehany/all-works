@@ -1,0 +1,481 @@
+/**** global ****/
+body {
+}
+body .wrapper {
+    width: 100%;
+    overflow: hidden;
+    background-color: #FFF
+}
+a {
+    cursor: pointer
+}
+.shad {
+    width: 100%;
+    background: url(../img/box.png) center center no-repeat;
+    background-size: cover;
+    height: 70px
+}
+.title {
+    margin-bottom: 80px;
+}
+.title h2 {
+    color: #555;
+    text-align: center;
+    margin-bottom: 20px
+}
+.title p.line {
+    width: 30%;
+    margin: auto;
+    height: 4px;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title p.line .line-in {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 30%;
+    background-color: #ca6533;
+}
+.title p.line .line-in .circle {
+    width: 15px;
+    height: 15px;
+    background-color: #FFF;
+    border-radius: 50%;
+    border: 2px solid #ca6533;
+}
+/**** start hero section ****/
+section.hero {
+    background: url(../img/1.jpg) center center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+section.hero .welcome {
+    height: 400px;
+    text-align: center
+    
+}
+section.hero .welcome h1 {
+    color: #FFF;
+    font-size: 80px;
+    line-height: 1.6
+}
+section.hero .welcome p {
+    color: #ca6533;
+    font-size: 70px;
+    line-height: 1.7;
+    text-shadow: 1px 1px 1px #FFF, -1px -1px 1px #FFF
+}
+section.hero .welcome p.line {
+    width: 52%;
+    margin: auto;
+    height: 5px;
+    background-color: #CCC;
+}
+section.hero .welcome p.line .line-in {
+    display: block;
+    margin: auto;
+    height: 100%;
+    width: 30%;
+    background-color: #ca6533;
+    position: relative
+}
+section.hero .welcome p.line .line-in .circle {
+    position: absolute;
+    top: -5px;
+    left: 42%;
+    width: 15px;
+    height: 15px;
+    background-color: #FFF;
+    border-radius: 50%;
+    border: 2px solid #ca6533;
+    line-height: 5px
+}
+section.hero .more {
+    text-align: center
+}
+section.hero .more a.read {
+    color: #FFF;
+    background-color: #ca6533;
+    padding: 10px;
+    margin-right: 10px
+}
+section.hero .more a.view {
+    color: #ca6533;
+    background-color: #FFF;
+    padding: 10px
+}
+/**** end hero section ****/
+
+/**** start navbar ****/
+nav .navbar-brand {
+    color: #ca6533!important;
+    font-size: 26px;
+    margin-left: 20px;
+}
+nav .navbar-nav {
+    padding-left: 100px
+}
+.nav-link {
+    padding-right: 1.5rem!important;
+    font-weight: 500
+}
+.nav-link.active {
+    color: #ca6533!important
+}
+/**** end navbar ****/
+
+/**** start about section ****/
+section.about {
+    padding: 30px 0
+}
+section.about .item {
+    height: 250px;
+    position: relative;
+    background-color: transparent;
+    margin-bottom: 20px;
+    text-align: center
+}
+section.about .item::before {
+    position: absolute;
+    left: 0;
+    content: "";
+    width: 0%;
+    bottom: 0;
+    height: 2px;
+    background-color: #cc6633;
+    transition: all .5s
+}
+section.about .item:hover::before {
+    width: 100%;
+}
+section.about .item::after {
+    position: absolute;
+    content: "";
+    width: 2px;
+    left: 0;
+    bottom: 0;
+    height: 0%;
+    background-color: #cc6633;
+    transition: all .5s
+}
+section.about .item:hover::after {
+    height: 100%;
+   
+}
+section.about .item i {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+section.about .it-1 i {
+    background-color: #cc6633;
+}
+section.about .it-2 i {
+    background-color: #0099cc;
+}
+section.about .it-3 i {
+    background-color: #66cc33;
+}
+section.about .it-4 i {
+    background-color: #cc6699;
+}
+section.about .item h3 {
+    font-size: 15px;
+    padding: 20px 0
+}
+section.about .item p {
+    font-size: 14px;
+    color: #666;
+    padding: 0 16px
+}
+section.about .comput {
+    max-width: 660px;
+    margin: auto
+}
+section.about .comput img {
+    display: block;
+    margin: auto;
+    width: 100%
+}
+/**** start team section ****/
+section.our-team {
+    
+}
+section.our-team .team {
+    border: 2px solid #EEE;
+    height: 350px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 25px 10px;
+    position: relative;
+    border-radius: 5px;
+}
+section.our-team .team .details {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    height: 0%;
+    background-color: #cc6633;
+    transition: all .4s;
+    opacity: 0;
+    text-align: left;
+    padding: 40px 20px;
+    border-radius: 5px;
+}
+section.our-team .team .details h4 {
+    color: #FFF;
+}
+section.our-team .team .details p {
+    color: #FFF;
+}
+section.our-team .team .details .social {
+    width: 100%;
+    margin-top: 30px
+}
+section.our-team .team .details .social i {
+    width: 35px;
+    height: 35px;
+    margin: 4px;
+    display: inline-block;
+    border: 2px solid #EEE;
+    border-radius: 50%
+}
+section.our-team .team .details a {
+    color: #FFF;
+    margin-top: 20px;
+    display: block
+}
+section.our-team .team:hover .details {
+    height: 100%;
+    opacity: 1
+}
+section.our-team .team img {
+    border: 2px solid #c7c7c7;
+    border-radius: 50%;
+}
+section.our-team .team > p {
+    color: #555;
+    font-weight: 500;
+    margin-top: 20px
+}
+/**** end team section ****/
+
+/**** start services section ****/
+section.services {
+    padding: 40px 0 0;
+    margin-top: 50px;
+    background-color: #dcdcdcad
+}
+section.services .content {
+    margin-bottom: 30px
+}
+section.services .right-s {
+    width: 70%;
+    display: inline-block;
+}
+section.services .right-s h3 {
+    font-size: 15px;
+    color: #cc6633
+}
+section.services .right-s p {
+    text-align: justify;
+    font-size: 14px;
+    font-weight: 500
+}
+section.services .left-s {
+    width: 50px;
+    height: 50px;
+    margin-right: 12px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #cc6633;
+    border: 2px solid #cc6633;
+    transition: all .3s
+}
+section.services .content .left-s:hover {
+    background-color: #FFF
+}
+/**** end services section ****/
+
+/**** start portfolio section ****/
+section.portfolio {
+    padding: 70px 0
+}
+section.portfolio .image {
+    background-color: #EEE;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #555;
+    padding-bottom: 10px;
+    transition: all .5s
+}
+section.portfolio .image:hover {
+    border-bottom: 2px solid #cc6633;
+}
+section.portfolio .image img {
+    width: 100%;
+    margin-bottom: 20px
+}
+section.portfolio .list {
+    list-style: none;
+    margin-left: -25px;
+    margin-bottom: 30px
+}
+section.portfolio .list li {
+    border: 2px solid #CCC;
+    margin-right: 10px;
+    margin-bottom: 7px;
+    max-width: 100px;
+    cursor: pointer
+}
+section.portfolio .list li.active {
+    background-color: #cc6633;
+    color: #FFF;
+    border: 2px solid #cc6633
+}
+section.portfolio .name-im ,section.portfolio .date {
+    padding: 0 10px 0 ;
+    font-weight: 500;
+    margin-bottom: .5rem;
+    font-size: 14px
+}
+section.portfolio .image:hover .name-im, section.portfolio .image:hover .date {
+    color: #cc6633
+}
+section.portfolio .name-im span,section.portfolio .date span {
+    float: right;
+    color: #555
+}
+/**** end portfolio section ****/
+
+/**** start clients section ****/
+section.clients {
+    background: url(../img/1.jpg) center center;
+    background-size: cover;
+    padding: 50px 0
+}
+section.clients .title h2 {
+    color: #FFF
+}
+section.clients .carousel-item {
+    min-height: 290px;
+    cursor:
+}
+section.clients .carousel-item p {
+    color: #FFF;
+    text-align: center;
+    max-width: 500px;
+    margin: 20px auto
+}
+section.clients .client {
+    text-align: center
+}
+section.clients .client img {
+    width: 80px;
+    border: 3px solid #cc6633;
+    border-radius: 50%;
+    margin-bottom: 10px
+}
+section.clients .client h4 {
+    color: #cc6633;
+    margin-bottom: 10px
+}
+.carousel-control-prev-icon ,.carousel-control-next-icon{
+    color: #FFF;
+    border: 2px solid #FFF;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 12px;
+    width: 20px;
+    height: 20px
+}
+section.clients .carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+/**** end clients section ****/
+
+/**** start blog section ****/
+section.blog .lorem {
+    padding: 10px 12px;
+    text-align: justify;
+    font-size: 14px;
+    color: #555;
+}
+/**** end blog section ****/
+
+/**** start contact section ****/
+section.contact {
+    background-color: #333;
+    padding: 20px 0;
+    position: relative
+}
+section.contact::after {
+    content: "";
+    position: absolute;
+    background-color: #cc6633;
+    bottom: 5px;
+    width: 100%;
+    height: 3px;
+}
+section.contact .title h2 {
+    color: #FFF;
+}
+section.contact form {
+    margin-top: 40px
+}
+section.contact input, section.contact textarea {
+    background-color: transparent;
+    border-right: none;
+    border-top: none;
+    border-radius: 0;
+    border-color: #CCC
+}
+section.contact input {
+    margin-bottom: 50px;
+    padding-left: 20px
+}
+section.contact textarea {
+    height: 216px;
+    resize: none
+}
+.form-control:focus {
+    color: #495057;
+    background-color: transparent;
+    border-color: #CCC;
+    outline: 0;
+    box-shadow: none;
+}
+section.contact .data {
+    text-align: center
+}
+section.contact .data .btn1 {
+    color: #FFF;
+    background-color: #cc6633;
+    border: 2px solid #cc6633;
+    margin-right: 20px;
+    padding: 5px;
+    width: 90px
+}
+section.contact .data .btn2 {
+    color: #FFF;
+    background-color: transparent;
+    border: 2px solid #cc6633;
+    padding: 5px;
+    width: 90px
+}
+/**** end contact section ****/
+
+
+

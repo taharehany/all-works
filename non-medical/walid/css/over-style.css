@@ -1,0 +1,323 @@
+body {
+    font-family: 'Tajawal', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.register-now-btn.whats {
+    background-color: #28a745;
+    border-radius: 50px;
+    color: #fff;
+    display: inline-block;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 35px;
+    margin-left: 20px;
+    padding: 22px 50px;
+    text-transform: uppercase;
+}
+
+.register-now-btn.whats:hover i,
+.register-now-btn.whats:active i,
+.register-now-btn.whats:focus i {
+    color: #fff;
+    right: -10px;
+}
+.banner-title {
+    padding-bottom: 80px;
+}
+.banner-title p {
+    font-size: 30px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.banner-title h1 {
+    padding: 0;
+    font-size: 70px;
+    color: #f25421;
+    text-transform: uppercase;
+}
+
+.top-social a {
+    font-size: 50px;
+    padding: 0 15px;
+}
+
+.speakers {
+    padding: 70px 0;
+}
+
+.schedule .speakers-list .left-section .img-section {
+    border-bottom: none;
+    margin-top: 0;
+    padding-bottom: 10px;
+}
+
+.schedule .speakers-list .left-section {
+    border-left: 1px solid #f58864;
+    float: right;
+    border-right: none;
+}
+
+.schedule .speakers-list h3.speaker-topic {
+    font-family: 'Tajawal', sans-serif;
+    font-size: 26px;
+    text-align: right;
+}
+
+.schedule .speakers-list .speaker-schedule {
+    border-top: 1px solid #f25421;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 22px 0;
+    text-align: right;
+}
+
+#speakers {
+    background: url(../images/subscribe-banner.jpg) no-repeat center center fixed;
+    display: table;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.speakers p.text-center.offer {
+    font-size: 30px;
+    background: #fff;
+    width: 100%;
+    margin: 50px auto;
+    padding: 20px 0;
+    border-radius: 10px;
+    color: #f25421;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.speakers p.block-title,
+h2.block-title {
+    margin-bottom: 60px;
+    margin-top: 0;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.speakers p.block-title,
+h2.block-title {
+    color: #ffffff;
+}
+
+.speakers .col-md-3.col-sm-4.col-xs-12 {
+    float: right;
+}
+
+.event-schedule span {
+    padding: 0;
+}
+.event-schedule span span {
+    color: #f25421;
+}
+.ryal {
+    text-decoration: line-through;
+    display: inline-block;
+    text-decoration-color: #000;
+    font-size: 40px;
+}
+
+.oryal {
+    font-size: 40px;
+    color: #000
+}
+
+.tab-content {
+    margin-bottom: 30px;
+}
+
+.copytight {
+    font-family: 'Tajawal', sans-serif;
+}
+
+.vedioo {
+    width: 50%;
+    height: 450px;
+    margin: 0 auto;
+}
+
+.border-top {
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+.speakers .speaker-block .speaker-details .speaker-name {
+    display: inline-block;
+    font-size: 20px;
+    width: 100%;
+    text-transform: uppercase;
+    font-family: 'Tajawal', sans-serif;
+}
+
+span.speaker-timing,
+span.speaker-loaction {
+    font-size: 20px;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.speakers .speaker-block .speaker-details {
+    background-color: #ed5e31;
+    bottom: 20px;
+    height: 100px;
+    left: 3%;
+    overflow: hidden;
+    padding: 10px;
+    position: absolute;
+    right: 3%;
+    transition: all 0.3s ease 0s;
+}
+
+.speakers .speaker-meta.case {
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    margin-top: 45px;
+    padding-top: 20px;
+}
+
+.carousel-inner>.item>a>img,
+.carousel-inner>.item>img,
+.img-responsive,
+.thumbnail a>img,
+.thumbnail>img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+/* custom */
+
+.speakers .offer li {
+    font-size: 26px;
+    background: #fff;
+    width: 100%;
+    margin: 20px auto;
+    padding: 15px 20px;
+    border-radius: 10px;
+    color: #f25421;
+    font-family: 'Tajawal', sans-serif;
+    text-align: right;
+    padding-right: 35px;
+    position: relative
+}
+
+.speakers .offer li i {
+    border: 1px solid;
+    border-radius: 50%;
+    position: absolute;
+    right: 5px;
+    top: 27%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+}
+.details .block-title {
+    color: #000;
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 50px;
+}
+.details .speaker-block {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.details .speaker-details {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    background-color: rgba(255,255,255,.85);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.details .speaker-details p {
+    color: #f25421;
+    font-size: 26px;
+    padding: 40px;
+    line-height: 1.1;
+}
+
+.conditions .block-title {
+    color: #000;
+}
+.conditions .condition-block {
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 25px 0 rgba(0,0,0,0.1);
+    position: relative;
+    background-color: #fff;
+    margin: auto;
+}
+.conditions .condition-block .condition-body {
+    height: 50%;
+    width: 100%;
+}
+.conditions .condition-block.bord::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    width: 100px;
+    height: 1px;
+    background-color: #f25421;
+    z-index: -1;
+}
+.conditions .condition-block .condition-icon {
+    margin-bottom: 10px;
+}
+.conditions .condition-block .condition-icon i {
+    font-size: 70px;
+}
+.conditions .condition-block .condition-details p {
+    padding: 10px 60px;
+    font-size: 20px;
+    color: #f25421;
+}
+
+.call_action {
+    background: url(../images/call.jpg) center center;
+    background-size: cover;
+    padding: 125px 0;
+}
+.call_action .header {
+    color: #f25421;
+    font-size: 50px;
+    max-width: 80%;
+    margin: auto;
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+.call_action .header .be {
+    text-decoration: line-through;
+}
+.call_action .header .af {
+    color: #000;
+}
+.call_action .call-details {
+    font-size: 35px;
+    color: black;
+}
+.call_action .call-details .off {
+    color: #f25421;
+}

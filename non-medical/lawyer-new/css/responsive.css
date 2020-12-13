@@ -1,0 +1,126 @@
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav {
+        -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+    }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 992px){
+    .main_menu .main-menu-item {
+        padding-right: 0;
+    } 
+}
+
+
+
+@media (max-width: 1200px){
+    .banner_part {
+        background-size: 33%;
+    }
+    .service_part .single_service_text p {
+        font-size: 14px;
+    }
+    .services-1-wrap .service-1 .service-1-content .service-heading {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 992px){
+    .navbar-brand.first {
+        display: block
+    }
+    .navbar-brand.second {
+        display: none
+    }
+    .banner_part {
+        background-size: 33%;
+    }
+    .about_img {
+        position: absolute;
+        opacity: .2
+    }
+    .about_img {
+        display: none
+    }
+    section.about_part .about_text {
+        padding-top: 0;
+    }
+    section.about_part .title {
+        padding-bottom: 0
+    }
+    section.about_part .title h2 {
+        justify-content: flex-end;
+    }
+    .our_service_part {
+        background-size: 50% 100%;
+    }
+    .single_service_part {
+        display: none
+    }
+    .portfolio_part .card-body p {
+        height: auto;
+    }
+    .client_review_text h3 {
+        margin: 25px 0 0;
+        font-size: 17px
+    }
+    .client_review_text p {
+        margin: 10px 0 24px;
+        line-height: 20px;
+        font-size: 12px;
+
+    }
+}
+
+@media (max-width: 767px){
+    .banner_part .banner_text h2 {
+        font-size: 55px;
+}
+    section.cta p {
+        font-size: 13px;
+        line-height: 30px;
+        width: 100%;
+}
+}
+
+@media (max-width: 600px){
+    .banner_part .banner_text h2 {
+        font-size: 45px;
+
+    }
+    .banner_part .banner_text p {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 450px){
+    .banner_part .banner_text h1 {
+        font-size: 30px;
+        font-weight: 500;
+        margin-bottom: 10px;
+        color: #525252;
+        text-shadow: 1px 1px 3px #9e9e9e;
+}
+    .banner_part .banner_text h2 {
+        font-size: 35px;
+
+}
+    .banner_part .banner_text p {
+        font-size: 22px;
+}
+}
+
+@media (max-width: 400px){
+    .banner_part .banner_text h2 {
+        font-size: 30px;
+
+}
+    section.about_part .about_text h3 {
+        font-size: 27px;
+    }
+    .title h2 {
+        font-size: 32px;
+
+}
+
+}

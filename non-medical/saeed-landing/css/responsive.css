@@ -1,0 +1,139 @@
+@media screen and (max-width: 992px) {
+  section.services .services-content .boxes {
+    margin-top: 50px;
+  }
+
+  section.blog .blog-content .single-blog .blog-text h2 {
+    font-size: 18px;
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  section.blog .blog-content .single-blog .blog-text p {
+    max-width: 100%;
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+  section.blog .blog-content .single-blog .blog-text .more a {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  section.contact .contact-form {
+    max-width: 100%;
+    margin-left: 0;
+  }
+  section.contact .info {
+    height: auto;
+    padding: 35px;
+    margin-top: 15px;
+  }
+  section.contact .info .info-content {
+    padding: 0;
+  }
+  section.contact .info .info-content:first-child {
+    padding: 0;
+    margin-bottom: 35px;
+  }
+}
+@media screen and (max-width: 767px) {
+  section.about .about-content .top-part {
+    padding: 40px;
+  }
+  section.about .about-content .top-part .part {
+    margin-bottom: 20px;
+  }
+  section.about .about-content .bottom-part .desc p {
+    padding: 0 20px 0 25px;
+  }
+  section.about .about-content .bottom-part .image {
+    margin-top: 40px;
+  }
+
+  section.video {
+    padding: 90px 0;
+  }
+
+  section.services .services-content .boxes {
+    margin-top: 40px;
+  }
+
+  section.blog .blog-content .single-blog .blog-text {
+    margin-top: 25px;
+  }
+  section.blog .blog-content .single-blog .blog-text h2 {
+    font-size: 22px;
+    max-width: 100%;
+    margin-bottom: 15px;
+  }
+  section.blog .blog-content .single-blog .blog-text p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  section.blog .blog-content .single-blog .blog-text .more a {
+    font-size: 20px;
+    font-weight: 700;
+  }
+}
+@media screen and (max-width: 600px) {
+  .wrapper section.hero .text-side {
+    padding-top: 50px;
+  }
+  .wrapper section.hero .text-side h1 {
+    font-size: 80px;
+  }
+  .wrapper section.hero .text-side h1 .diff-word {
+    font-size: 120px;
+    font-weight: 800;
+  }
+  .wrapper section.hero .text-side p {
+    padding: 0 25px 0 20px;
+  }
+  .wrapper section.hero .img-side {
+    margin-top: 30px;
+  }
+  .wrapper section.about .about-content .top-part {
+    padding: 40px;
+  }
+  .wrapper section.about .about-content .top-part .part {
+    margin-bottom: 20px;
+  }
+  .wrapper section.about .about-content .bottom-part .desc p {
+    padding: 0 20px 0 25px;
+  }
+}
+@media screen and (max-width: 500px) {
+  section.video .content-vid h3 {
+    font-size: 28px;
+  }
+  section.video .content-vid p {
+    padding: 0 20px 0 25px;
+    line-height: 1.7;
+  }
+
+  section.services .services-content .ser-des h2 {
+    font-size: 26px;
+  }
+  section.services .services-content .ser-des p {
+    padding: 0 20px 0 25px;
+    line-height: 1.7;
+  }
+
+  section.contact .info {
+    padding: 35px 15px;
+  }
+  section.contact .info .info-content h2 {
+    font-size: 18px;
+  }
+  section.contact .info .info-content .box p {
+    padding-right: 30px;
+    font-size: 14px;
+  }
+  section.contact .info .info-content .box p i {
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    font-size: 14px;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */

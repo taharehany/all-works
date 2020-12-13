@@ -1,0 +1,177 @@
+/**/
+.colorlib-nav #colorlib-logo a {
+  color: #3c97e8;
+  position: relative;
+  font-size: 26px;
+  letter-spacing: -1px;
+  font-weight: 700;
+}
+.colorlib-nav #colorlib-logo a img {
+  max-width: 250px;
+}
+.colorlib-nav .top-menu {
+  padding-top: 0;
+}
+.colorlib-nav .top-menu .top {
+  padding: 15px 0 15px 0;
+}
+.colorlib-nav .top-menu .top .justify {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.colorlib-nav ul li.active > a {
+  color: #ffffff;
+}
+.colorlib-nav ul li a:hover,
+.colorlib-nav ul li a:focus {
+  color: #fff;
+}
+
+/**/
+/**/
+.colorlib-nav .num .icon,
+.colorlib-nav .loc .icon {
+  right: 0;
+  left: auto;
+  width: 40px;
+  height: 40px;
+}
+.colorlib-nav .num .icon i,
+.colorlib-nav .loc .icon i {
+  height: auto;
+  font-size: 20px;
+}
+.colorlib-nav .num p,
+.colorlib-nav .loc p {
+  padding-left: 0;
+  padding-right: 50px;
+  margin-bottom: 0;
+}
+
+/**/
+/**/
+#colorlib-hero .flexslider .slides li::after {
+  background: rgba(0, 0, 0, 0.42);
+}
+#colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
+  letter-spacing: 0;
+}
+
+/**/
+/**/
+#colorlib-about .header {
+  font-size: 30px;
+  font-weight: 600;
+  color: #424242;
+}
+#colorlib-about .about-text p {
+  font-size: 17px;
+  color: #000;
+  margin-bottom: 13px;
+}
+#colorlib-about .about-text p i {
+  font-size: 15px;
+  color: #3c97e8;
+}
+#colorlib-about .btn.btn-lg {
+  padding: 14px 25px !important;
+}
+#colorlib-about .call-us-about {
+  margin-bottom: 20px;
+}
+#colorlib-about .about-img {
+  border-radius: 15px;
+}
+
+/**/
+/**/
+#colorlib-appointment h2 {
+  margin-bottom: 40px;
+  display: block;
+}
+
+/**/
+/**/
+#colorlib-services .services {
+  padding-top: 1.5em;
+}
+#colorlib-services .services:hover .icon, #colorlib-services .services:focus .icon {
+  background-color: transparent;
+}
+#colorlib-services .services .icon {
+  width: auto;
+  height: auto;
+  background-color: transparent;
+  display: block;
+  text-align: center;
+  margin-bottom: 30px;
+  position: static;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+}
+#colorlib-services .services .icon img {
+  max-width: 100%;
+}
+#colorlib-services .services .desc {
+  text-align: center;
+  padding-left: 0;
+}
+#colorlib-services .services .desc h3 {
+  line-height: 1.7;
+  height: 40px;
+}
+#colorlib-services .justify-ser {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/**/
+/**/
+.features-wrap h2 {
+  font-weight: 600;
+}
+.features-wrap .details p {
+  font-size: 18px;
+  font-weight: 500;
+}
+.features-wrap .call-us p {
+  font-size: 25px;
+  color: #fff !important;
+  font-weight: 700;
+}
+.features-wrap .call-us a {
+  border: 2px solid #fff !important;
+  color: #fff !important;
+  margin-right: 0;
+}
+
+/**/
+/**/
+.contact-info-wrap {
+  margin-top: 40px;
+}
+.contact-info-wrap p a {
+  color: #555;
+}
+.contact-info-wrap .box {
+  padding: 20px;
+  box-shadow: 0px 0px 30px -15px #bdbdbd;
+}
+.contact-info-wrap .box span i {
+  font-size: 30px;
+  color: #3c97e8;
+}
+
+/**/
+/**/
+#colorlib-footer {
+  padding: 0;
+}
+
+/**/
+
+/*# sourceMappingURL=over-style.css.map */

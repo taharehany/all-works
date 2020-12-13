@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo&display=swap');
+body {
+    font-family: 'Cairo', sans-serif;
+}
+.heading-section h2 {
+    font-size: 40px;
+    margin-bottom: 15px
+}
+.ftco-navbar-light.scrolled .navbar-brand {
+    color: #fff;
+    background: #ffffff;
+}
+.ftco-navbar-light .navbar-nav > .nav-item.active > a {
+    color: #000;
+}
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover, .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:focus {
+    color: #b71c8d;
+}
+.ftco-navbar-light.scrolled .navbar-toggler {
+    font-size: 27px
+}
+/**** start nav ****/
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+    font-size: 16px;
+    color: #000
+}
+.ftco-navbar-light .navbar-nav {
+    text-align: right;
+    padding-right: 0;
+}
+.navbar-brand {
+    background: #ffffff;
+}
+.navbar-brand img {
+    max-width: 80px;
+}
+.ftco-navbar-light .navbar-toggler {
+    font-size: 27px
+}
+/***** start slider ****/
+.owl-carousel.home-slider .slider-item .slider-text .subheading {
+    font-size: 27px;
+    color: #000;
+    font-weight: 600;
+    line-height: 1.7;
+}
+.owl-carousel.home-slider .slider-item .slider-text h1 {
+    line-height: 1.5;
+    font-size: 52px;
+    color: #000;
+    font-weight: 700
+}
+.owl-carousel.home-slider .slider-item .overlay {
+    background: #fff;
+    opacity: 0.6
+}
+.owl-carousel.home-slider .slider-item .slider-text .con-exp {
+    max-width: 230px;
+    height: 230px;
+    margin: auto;
+    border: 3px solid #000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 20px #000000;
+}
+.owl-carousel.home-slider .slider-item .slider-text p.exp {
+    color: #000;
+    font-size: 25px;
+    font-weight: 600
+}
+.owl-carousel.home-slider .slider-item .slider-text p.exp span {
+    color: #b61c8c;
+    font-size: 55px;
+    font-weight: 700;
+    display: block;
+}
+/**** start data ****/
+#section-counter .overlay {
+    background: -webkit-linear-gradient(45deg, #000000 0%, #000000 100%);
+    background: -o-linear-gradient(45deg, #000000 0%, #000000 100%);
+    background: -ms-linear-gradient(45deg, #000000 0%, #000000 100%);
+    background: linear-gradient(45deg, #000000 0%, #000000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fd6b00', endColorstr='#B61C8C', GradientType=1 );
+}
+
+.ftco-about .one-half .icon {
+    background: #B61C8C;
+    background: -moz-linear-gradient(-45deg, #B61C8C 0%, #ff00ba 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, #B61C8C), color-stop(100%, #ff00ba));
+    background: -webkit-linear-gradient(-45deg, #B61C8C 0%, #ff00ba 100%);
+    background: -o-linear-gradient(-45deg, #B61C8C 0%, #ff00ba 100%);
+    background: -ms-linear-gradient(-45deg, #B61C8C 0%, #ff00ba 100%);
+    background: -webkit-linear-gradient(315deg, #B61C8C 0%, #ff00ba 100%);
+    background: -o-linear-gradient(315deg, #B61C8C 0%, #ff00ba 100%);
+    background: linear-gradient(135deg, #B61C8C 0%, #ff00ba 100%);
+}
+.save-section h2 {
+    z-index: -1;
+    font-size: 47px;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+/**** start about ****/
+.services {
+    margin-bottom: 30px;
+    height: 120px;
+}
+.heading-section .subheading {
+    font-size: 17px;
+}
+.services .text {
+    text-align: right
+}
+.services .icon {
+    width: 70px;
+    height: 70px;
+}
+.services .text {
+    font-size: 13px;
+    line-height: 1.6;
+    color: #2f2f2f;
+    text-align: right;
+}
+.mfp-content {
+    max-width: 650px;
+    margin: auto;
+    text-align: center;
+    background-color: #4c0037;
+    padding: 20px;
+    border-radius: 5px;
+    border: 10px solid #EEE;
+} 
+.mfp-close.as-button {
+    position: relative;
+    font-family: 'Cairo', sans-serif;
+    font-size: 20px;
+    border: 2px solid #fff;
+    padding: 0px 30px;
+    display: block;
+    max-width: 130px;
+    width: auto;
+    float: right;
+    text-align: center;
+    height: auto;
+    color: #fff
+}
+
+.details-popup {
+    border: 2px solid #555;
+    padding: 5px 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #555;
+    margin: 20px 0 0;
+    display: block;
+    max-width: 100px;
+    text-align: center;
+}
+.biz-project-popup-text h4 {
+    color: #fff;
+    text-align: right
+}
+.biz-project-popup-text p {
+    color: #fff;
+    text-align: right;
+    direction: rtl;
+    font-size: 16px;
+}
+.details-popup:hover,.details-popup:active,.details-popup:focus {
+    color: inherit
+}
+button:focus {
+    outline: 0;
+}
+/**** start services ****/
+.section-block-grey {
+    padding: 90px 0px 90px 0px;
+    background-color: #fafafa;
+}
+
+.serv-section-2 {
+    position: relative;
+    border: 1px solid #eee;
+    background: #fff;
+    box-shadow: 0px 10px 30px 0px rgba(50, 50, 50, 0.16);
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 36px 20px;
+    margin-bottom: 30px;
+}
+.serv-section-2:before {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    z-index: 0;
+    content: " ";
+    width: 90px;
+    height: 80px;
+    background: #f5f5f5;
+    border-bottom-right-radius: 136px;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+}
+
+.serv-section-2-icon {
+    position: absolute;
+    top: 10px;
+    left: 25px;
+    max-width: 100px;
+    z-index: 1;
+    text-align: right;
+    font-size: 27px;
+    font-weight: 700;
+    color: #840060;
+}
+
+.serv-section-2-icon i {
+    color: #001c48;
+    font-size: 48px;
+    line-height: 65px;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+}
+.serv-section-desc {
+    position: relative;
+    text-align: right;
+}
+
+.serv-section-2 h4 {
+    color: #333;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.serv-section-2 h5 {
+    color: #333;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1;
+    margin-top: 5px;
+}
+
+.section-heading-line-left {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: #001c48;
+    border-radius: 25%;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    display: none;
+}
+
+.serv-section-2 p {
+    margin-top: 25px;
+    padding-right: 0;
+    margin-bottom: 0;
+    line-height: 1.6;
+    font-size: 14px;
+    font-weight: 500;
+    color: #636363;
+    height: 80px;
+}
+
+.serv-section-2:hover .serv-section-2-icon i {
+    color: #fff;
+}
+.serv-section-2:hover .serv-section-2-icon {
+    color: #fff
+}
+
+.serv-section-2:hover:before {
+    background: #001c48;
+}
+
+/***** start footer ****/
+.ftco-footer {
+    font-size: 14px;
+    padding: 25px 0 0px;
+    background: #120f0f;
+}
+
+/* online call */
+.online-call {
+    padding: 70px 0;
+    background-color: #f4faff;
+    position: relative;
+    z-index: 2;
+}
+.online-call .online-content h3 {
+    color: #252525;
+    letter-spacing: -1px;
+}
+.online-call .online-content p {
+    max-width: 800px;
+    margin: 25px auto;
+}
+.online-call .online-content img {
+    position: absolute;
+    right: 0;
+    top: 40px;
+    opacity: .1;
+    max-width: 260px;
+    z-index: -1;
+}
+/* online call */
+
+
+/*----- start fixed mobile ------*/
+.con_icons {
+    width: 100%;
+    background-color: #80005d;
+    position: fixed;
+    bottom: 0;
+    left: -4px;
+    transition: all ease-in-out .4s;
+    height: 75px;
+    line-height: 75px;
+    box-shadow: none;
+    z-index: 16000170;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    border-radius: 0 50px;
+}
+
+.con_icons p {
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    line-height: 75px;
+}
+.con_icons .contain {
+    background-color: #ffffff;
+    position: relative;
+    bottom: 0px;
+    width: 100px;
+    height: 75px;
+    border-radius: 0 0 138px 0;
+    left: 0px;
+    float: left;
+} 
+.con_icons .fixed_whats {
+    width: 50%;
+    height: 60%;
+    background: url(../images/whatsapp.webp) center center;
+    background-size: cover;
+    position: absolute;
+    bottom: 18px;
+    left: 15px;
+}
+.con_icons .fixed_mobile i {
+    background-color: #FFF;
+    color: #8e0067;
+    padding: 6px;
+    border-radius: 50%;
+    font-size: 18px;
+}
+@media (min-width: 576px) {
+    .con_icons {
+        display: none
+    }
+}
+@media (max-width: 576px) {
+    .ftco-footer {
+        padding: 20px 0 80px;
+    }
+}
+/*----- end fixed mobile ------*/

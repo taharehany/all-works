@@ -1,0 +1,130 @@
+@media screen and (max-width: 992px) {
+  section.contact .contact-form {
+    margin-bottom: 5px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .wrapper section.hero .text-side p {
+    font-size: 34px;
+  }
+
+  section.about .about-content .top-part .image {
+    width: auto;
+    height: auto;
+  }
+  section.about .about-content .desc p {
+    font-size: 20px;
+  }
+
+  section.cta .cta-contant h2 {
+    font-size: 30px;
+  }
+  section.cta .cta-contant h2 .free {
+    font-size: 65px;
+  }
+
+  section.contact .contact-form .border-form {
+    padding: 35px;
+  }
+  section.contact .info .info-content {
+    padding: 35px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .wrapper section.hero {
+    padding: 200px 0 100px;
+  }
+  .wrapper section.hero .text-side {
+    padding-top: 50px;
+  }
+  .wrapper section.hero .text-side h1 {
+    font-size: 80px;
+  }
+  .wrapper section.hero .text-side h1 .diff-word {
+    font-size: 120px;
+  }
+  .wrapper section.hero .text-side p {
+    padding: 0 25px 0 20px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .wrapper section.hero .text-side {
+    padding-top: 0;
+  }
+  .wrapper section.hero .text-side h1 {
+    font-size: 60px;
+  }
+  .wrapper section.hero .text-side h1 .diff-word {
+    font-size: 100px;
+  }
+  .wrapper section.hero .text-side p {
+    padding: 0;
+    font-size: 23px;
+  }
+  .wrapper section.hero .text-side .buttons-side a {
+    padding: 9px 20px;
+    font-size: 14px;
+  }
+
+  section.about .about-content .top-part .image {
+    padding: 9px;
+  }
+  section.about .about-content .top-part .image .flower1 {
+    max-width: 130px;
+  }
+  section.about .about-content .top-part .image .flower2 {
+    max-width: 150px;
+  }
+  section.about .about-content .desc h2 .doc {
+    font-size: 40px;
+    margin-top: 20px;
+    padding: 5px 20px 15px;
+  }
+  section.about .about-content .desc h2 .doc p {
+    font-size: 18px;
+  }
+
+  section.cta .cta-contant h2 {
+    font-size: 20px;
+  }
+  section.cta .cta-contant h2 .free {
+    font-size: 37px;
+    margin-bottom: 20px;
+    display: inline-block;
+    color: #d147a5;
+    background-color: #ffffff;
+    padding: 0px 20px 10px;
+    border-radius: 90px;
+  }
+
+  section.contact .contact-form {
+    padding: 10px;
+  }
+  section.contact .contact-form h3 {
+    font-size: 16px;
+  }
+  section.contact .contact-form .border-form {
+    padding: 15px;
+  }
+  section.contact .info {
+    padding: 10px;
+  }
+  section.contact .info .info-content {
+    padding: 20px;
+  }
+  section.contact .info .info-content h2 {
+    font-size: 18px;
+  }
+  section.contact .info .info-content .box p {
+    padding-right: 30px;
+    font-size: 14px;
+  }
+  section.contact .info .info-content .box p i {
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    font-size: 13px;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */

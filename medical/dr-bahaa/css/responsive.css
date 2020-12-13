@@ -1,0 +1,201 @@
+@media (max-width:1199px){
+	.header_area .navbar .nav .nav-item {
+		margin-right: 5px;
+	}
+    .pricingTable3 .price-value .amount {
+        font-size: 36px;
+    }
+    .pricingTable3 .pricing-content li {
+        font-size: 15px;
+    }
+    .pricingTable3 .pricing-content {
+        margin: 0 0 20px;
+    }
+    .pricingTable3 .pricing-content li {
+        line-height: 40px;
+    }
+}
+
+@media (max-width:991px){
+	.navbar-toggler {
+        border: none;
+        border-radius: 0px;
+        padding: 0px;
+        cursor: pointer;
+    }
+
+    .navbar-toggler span{
+        display: block;
+        width: 25px;
+        height: 3px;
+        background: #5a5a5a;
+        margin: auto;
+        margin-bottom: 4px;
+        transition: all 400ms linear;
+        cursor: pointer;
+    }
+	.navbar .container{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.nav {
+		padding: 25px 0 0;
+	}
+	.header_top .nav{
+		padding: 0px;
+	}
+	.header_area .navbar .nav .nav-item .nav-link{
+		line-height: 40px;
+		margin-right: 0px;
+		display: block;
+		border-bottom: 1px solid #ededed33;
+		border-radius: 0px;
+	}
+	.header_area.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
+		line-height: 40px;
+	}
+	.header_area .navbar .search{
+		margin-left: 0px;
+	}
+	.header_area .navbar-collapse{
+		max-height: fit-content;
+        overflow-y: hidden;
+        text-align: right;
+	}
+    .header_area .navbar .nav .nav-item:last-child {
+        margin-right: 0;
+    }
+	.header_area .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
+		padding: 0px 15px;
+	}
+	.header_area .navbar .nav .nav-item {
+		margin-right: 0px;
+	}
+    .header_area .navbar .nav .nav-item .nav-link {
+        color: #d0d0d0
+    }
+    
+    .about-area {
+        position: relative
+    }
+    .about-area .image {
+        position: absolute;
+        z-index: 0;
+        opacity: .2;
+        left: 0;
+        top: 50px;
+    }
+    .about-area .image img {
+        display: none
+    }
+    section.about-area {
+        padding: 70px 0;
+        margin-bottom: 0;
+    }
+    .single-blog-area {
+        margin-bottom: 35px
+    }
+    
+    .pricingTable3 .price-value .amount {
+        font-size: 38px;
+    }
+    .pricingTable3 .pricing-content li {
+        font-size: 16px;
+    }
+    .pricingTable3 .pricing-content {
+        margin: 0 0 25px;
+    }
+    .pricingTable3 .pricing-content li {
+        line-height: 46px;
+    }
+    .about-video-area.section-gap {
+        padding: 60px 0;
+    }
+    section.maps .map {
+        margin-bottom: 25px;
+    }
+    section.maps .map .head p {
+        font-size: 12px;
+    }
+    section.maps .map .head {
+        height: 90px;
+}
+}
+
+@media (max-width:767px){
+    .header-top_area {
+        display: none
+    }
+    .slider_area .single_slider .slider_text h3 {
+        font-size: 33px;
+    }
+    .title-section {
+        margin-bottom: 50px;
+    }
+}
+@media (max-width:600px){
+	
+}
+@media (max-width:575px){
+    section.maps .map {
+        border: none;
+        padding: 0
+    }
+}
+
+@media (max-width:520px){
+   
+}
+@media (max-width:480px){
+	.header_area .navbar-collapse{
+		max-height: 280px;
+	}
+    .main_menu .navbar-brand img {
+        max-width: 140px;
+    }
+    .header-contacts__inner {
+        font-size: 13px;
+        padding-left: 44px;
+    }
+    .contact-our-area .contact-information .single-contact-info h6 {
+        font-size: 10px
+    }
+    .contact-our-area .contact-information .single-contact-info p {
+        font-size: 12px;
+    }
+    .pad {
+        padding: 0 5px
+    }
+}
+
+@media (max-width:400px){
+    .header-contacts {
+        overflow: hidden;
+        padding-left: 5px;
+    }
+    .header-contacts__number {
+        font-size: 15px;
+        line-height: 21px;
+        margin-top: 0;
+    }
+    .main_menu .navbar-brand img {
+        max-width: 110px;
+    }
+    .navbar-brand {
+        margin-right: 0
+    }
+    .title-section .title {
+        font-size: 30px;
+    }
+}
+@media (max-width:350px){ 
+    .header-contacts__inner {
+        font-size: 10px;
+    }
+    .header-contacts__number {
+        font-size: 11px; 
+    }
+    .header-contacts i {
+        font-size: 25px;
+    }
+}

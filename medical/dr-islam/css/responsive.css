@@ -1,0 +1,71 @@
+@media (max-width:1200px) {
+    .team_member_section .single_team_member .single_team_text p {
+        font-size: 12px
+    }
+}
+
+@media (max-width:992px) {
+    .navbar-light .navbar-nav .nav-link {
+        color: #000!important;
+        text-align: right
+    }
+    .main_menu .btn_hero {
+        margin-left: 0
+    }
+    .banner_part .banner_text h2 {
+        font-size: 30px;
+}
+    
+    .banner_part .banner_text h2 span {
+        font-size: 45px;
+}
+    .team_member_section .single_team_member .single_team_text p {
+        font-size: 11px
+    }
+    .about_part {
+        padding: 80px 0 80px;
+    } 
+    .about_part .about_img {
+        position: absolute;
+    }
+    .about_part .about_img .img_1 {
+        display: block;
+        opacity: .2;
+        position: relative;
+        width: 100%;
+        top: -50px;
+    }
+}
+
+@media (max-width:767px) {
+    .banner_part .banner_text {
+        padding-top: 0
+    }
+    .banner_part {
+        height: auto
+    }
+  
+}
+@media (max-width:576px) {
+    .team_member_section .single_team_member .single_team_text p {
+        font-size: 14px
+    }
+}
+@media (max-width:500px) {
+    
+}
+
+@media (max-width:400px) {
+    .banner_part .banner_text h2 {
+        font-size: 22px;
+}
+    .banner_part .banner_text h2 span {
+        font-size: 35px;
+}
+    .banner_part .banner_text .banner_text_iner p s{
+        font-size: 12px
+    }
+    .main_menu .btn_hero {
+        font-size: 15px
+    }
+}

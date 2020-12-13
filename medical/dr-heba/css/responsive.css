@@ -1,0 +1,85 @@
+@media only screen and (max-width: 1199px) {
+    .about_part {
+        padding: 0 0 50px 0
+    }
+}
+@media only screen and (max-width: 991px) {
+    .navbar-expand-lg .navbar-nav .nav-item:first-child .nav-link {
+        margin-right: 0;
+        padding-right: 16px!important;
+        padding: 10px 16px !important;
+    }
+    .main_menu .main-menu-item {
+        flex-shrink: 0;
+    }
+    .banner_part {
+        background-size: 550px;
+    }
+    .about_text {
+        margin-bottom: 30px
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .banner_part {
+        height: 680px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .banner_part {
+        background-size: 450px;
+    }
+}
+    
+@media only screen and (max-width: 500px) {
+    .navbar-light .navbar-toggler {
+        position: relative;
+    }
+    .navbar-brand {
+        margin-right: 10px
+    }
+    .banner_part .banner_text p {
+        font-size: 30px
+    }
+    .main_menu .navbar-brand img {
+        max-width: 100px;
+    }
+    .menu_fixed .btn_1 {
+        padding: 5px 15px;
+        font-size: 13px;
+    }
+    .menu_fixed .btn_1 {
+        border: 2px solid #4ad7e5;
+        padding: 5px 15px;
+    }
+    .blog_item_section .single_blog_img span {
+        font-size: 70px;
+        max-width: 150px;
+        height: 150px;
+        margin-bottom: 25px;
+        line-height: 150px;
+    }
+    .navbar .menu_btn a {
+        padding: 5px 15px
+    }
+    .banner_part .banner_text h5 {
+        color: #00b5c7;
+    }
+    .banner_part .banner_text h1 span {
+        font-size: 38px;
+        color: #00b5c7;
+    }
+    .banner_part .banner_text h1 {
+        font-size: 30px;
+    }
+    .banner_part .banner_text p {
+        font-size: 21px;
+        color: #00b5c7;
+        font-weight: 600;
+    }
+    .banner_part {
+        height: 650px;
+        background-size: 300px;
+    }
+
+}

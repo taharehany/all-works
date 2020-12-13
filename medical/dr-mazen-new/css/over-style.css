@@ -1,0 +1,226 @@
+/*** start nav ***/
+.nav-menu > li {
+    float: right
+}
+.nav-menu a {
+    color: #383838;
+    font-weight: 600;
+}
+#header {
+    padding-bottom: 10px;
+}
+#header #logo img {
+    max-width: 200px;
+}
+.main-menu {
+    padding-top: 10px;
+}
+.header-scrolled {
+    background: rgba(70, 219, 249, 1);
+}
+.header-scrolled .nav-menu a {
+    color: #fff
+}
+/*** end nav ***/
+
+/*** start slider ***/
+.home-banner-area .banner-img img {
+    width: 100%
+}
+@media (max-width: 1440px){
+    .home-banner-area .banner-img {
+        text-align: right;
+    }
+}
+.home-banner-content h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.home-banner-content .text {
+    margin-bottom: 40px
+}
+.home-banner-content .text p {
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #555;
+}
+.home-banner-content .text p i {
+    border: 1px solid #555;
+    padding: 5px
+}
+.home-banner-content .buttons i {
+    font-size: 30px;
+    padding-left: 15px;
+    vertical-align: middle;
+}
+.home-banner-content .desc {
+    display: inline-block
+}
+.home-banner-area .buttons {
+    display: inline-block;
+    padding: 15px
+}
+.home-banner-content .buttons {
+    margin-left: 10px;
+    margin-right: 0
+}
+.home-banner-content .buttons p {
+    margin-bottom: 0 !important;
+}
+.home-banner-content .buttons p span {
+    font-size: 19px;
+    font-weight: 600;
+}
+.home-banner-content .buttons i {
+    padding-left: 20px;
+    padding-right: 0
+}
+/*** end slider ***/
+
+/*** start data ****/
+.single-fact {
+    border-left: 1px solid #ddd;
+    border-right: 0;
+}
+.single-fact:last-child {
+    border-left: 0;
+}
+.single-fact p {
+    font-size: 17px;
+}
+/**** end data ***/
+
+/*** start about ****/
+section.about-area .section-title {
+    margin-bottom: 40px
+}
+section.about-area .section-title p {
+    margin-bottom: 20px;
+    font-size: 20px
+}
+
+.home-about-left img {
+    position: relative;
+    max-width: 100%;
+    text-align: center;
+}
+.home-about-right .text p {
+    color: #555;
+    font-size: 17px;
+    font-weight: 600;
+}
+.home-about-right .text p i {
+    font-size: 23px;
+    color: #58dffa;
+    border: 1px solid #58dffa;
+    padding: 5px;
+    border-radius: 50%;
+}
+.home-about-right .primary-btn {
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 17px;
+    font-weight: 600;
+}
+/*** end about ****/
+
+/*** start services ****/
+.feature-area {
+    padding: 70px 0;
+    background-color: #fbfbfb;
+}
+.feature-area:after {
+    bottom: 0;
+    display: none
+}
+.feature-area .single-feature {
+    margin-bottom: 30px
+}
+.feature-area .single-feature .lnr {
+    color: #fff;
+    font-weight: 600;
+    font-size: 24px;
+    padding: 30px;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+.testimonials-area .owl-thumb-item.active .overlay-grad {
+    background-image: linear-gradient(0deg, #ffffff 0%, #ffffff  100%)
+}
+.testimonials-area .owl-thumb-item .overlay-grad:hover {
+    background-image: linear-gradient(0deg, #ffffff 0%, #ffffff  100%)
+}
+/*** end services ****/
+
+/*** start clients ****/
+.testimonials-area {
+    padding: 50px 0 100px
+}
+.screenshot-area {
+    padding: 70px 0;
+    background-color: #fbfbfb;
+}
+.screenshot-area .owl-carousel .owl-item img {
+    display: inline-block;
+    width: 49%;
+    border-radius: 15px
+}
+/*** end clients ****/
+
+/*** start contact ****/
+.contact-page-area {
+    padding: 70px 0;
+    background-color: #fff;
+}
+.map-wrap iframe {
+    border: 1px solid #dedede;
+    border-radius: 0;
+    padding: 3px;
+    height: 350px;
+}
+.contact-page-area .map-wrap {
+    margin-bottom: 30px;
+}
+.form-area {
+    padding: 22px;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 3px #bbb;
+}
+.address-wrap {
+    padding: 10px;
+    padding: 25px 25px 0;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 3px #bbb;
+}
+.form-control {
+    height: calc(2.7rem + 3px);
+}
+.contact-page-area .single-contact-address {
+    text-align: right;
+}
+.contact-page-area .single-contact-address .lnr {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.contact-details p a {
+    color: #555
+}
+.form-control:focus {
+    border-color: #848484;
+    outline: 0;
+    box-shadow: none;
+}
+/*** end contact ****/
+
+/**** start footer ****/
+.footer-area {
+    padding: 15px 0
+}
+.footer-area .footer-bottom {
+    margin-top: 0;
+}
+.footer-text {
+    text-align: center
+}
+/**** end footer ****/

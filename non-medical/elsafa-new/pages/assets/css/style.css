@@ -1,0 +1,304 @@
+
+@import url('https://fonts.googleapis.com/css?family=Cairo&display=swap');
+bady{
+  font-family: 'Cairo', sans-serif !important;  
+        text-align: right !important;
+}
+
+h1,h2,h3,h4,h5,h6,p,a,span{
+    font-family: 'Cairo', sans-serif !important;
+}
+
+.logo a {
+    text-align: right;
+}
+.logo img {
+    width: 65%;
+}
+
+
+.fennec-nav .navbar .navbar-nav .nav-item .dropdown-menu {
+    text-align: right;
+    right: 0;
+    left: auto;
+ 
+}
+.fennec-nav .navbar .navbar-nav .nav-item .dropdown-menu li a::after {
+    left: auto;
+    right: -5px
+}
+
+
+.middle-header ul {
+    text-align: left;
+    padding-right: 0;
+    list-style-type: none;
+    margin-bottom: 0;
+    position: relative;
+    top: 8px;
+     font-family: 'Cairo', sans-serif !important;
+}
+.middle-header ul li {
+    display: inline-block;
+    position: relative;
+    text-align: right;
+    padding-right: 55px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #141414;
+    margin-left: 25px;
+    
+}
+.middle-header ul li i {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.fennec-nav .navbar ul {
+    padding-right: 0;
+    list-style-type: none;
+    margin-bottom: 0;
+     font-family: 'Cairo', sans-serif !important;
+}
+.main-banner-content h1 {
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Cairo', sans-serif !important;
+}
+.main-banner-content p {
+    color: #fff;
+    opacity: .95;
+    font-size: 25px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: 'Cairo', sans-serif !important;
+    background: #fd6c1e;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+.main-banner-content .btn {
+    border: 0;
+    padding: 14px 25px 15px;
+    margin: auto
+}
+.main-banner-content {
+    max-width: 600px;
+    margin: auto;
+    direction: rtl
+}
+.about-content {
+    text-align: right;
+}
+.section-title span {
+    color: #f47820;
+    font-size: 24px;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+}
+.section-title p {
+     max-width: 100%;
+}
+.career-content span {
+    display: block;
+
+    font-size: 20px;
+    color: #ffc04e;
+    line-height: 40px;
+    }
+.career-content {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.career-content h2 {
+    font-size: 42px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 30px;
+    margin-top: 8px;
+    line-height: 50px;
+}
+.btn {
+    border: 1px solid;
+    position: relative;
+    border-radius: 5px;
+    padding: 12px 60px 13px;
+    line-height: initial;
+    -webkit-transition: .5s;
+    transition: .5s;
+    overflow: hidden;
+    z-index: 1;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.leading-content ul li i {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.leading-content ul li {
+    text-align: right;
+    display: inline-block;
+    color: #efefef;
+    text-transform: uppercase;
+    position: relative;
+    font-size: 14px;
+    -ms-flex: 0 0 50%;
+    -webkit-box-flex: 0;
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-left: 21px;
+    padding-right: 48px;
+    font-family: 'Cairo', sans-serif !important;
+}
+.leading-content ul {
+    padding-left: 0;
+    list-style-type: none;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center!important;
+    -webkit-box-align: center!important;
+    align-items: center!important;
+    margin-top: 35px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.single-feedback-item .feedback-desc i {
+    position: absolute;
+    left: 15px;
+    top: 25px;
+    color: #c6c5c6;
+}
+.single-feedback-item .feedback-desc span {
+    display: block;
+    margin-top: 10px;
+    font-weight: 600;
+    color: #02298a;
+    text-align: right;
+}
+.single-feedback-item .feedback-desc p {
+    margin-bottom: 0;
+    line-height: 1.6;
+    font-style: italic;
+    text-align: right;
+}
+.single-feedback-item .feedback-desc {
+    background-color: #fff;
+    position: relative;
+    padding: 20px 20px 20px 65px;
+    z-index: 1;
+    border-radius: 5px;
+}
+.bg-fffcf7 {
+    background-color: #dee2e6;
+}
+.partner-slides-three .partner-item img {
+    display: inline-block!important;
+    width: auto!important;
+    opacity: .90;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+.contact-box .icon {
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 46px;
+    border: 1px dashed #02298a;
+    border-radius: 50%;
+    color: #02298a;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+.contact-box .content h4 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: right;
+}
+.contact-box .content p {
+    text-align: right;
+}
+.contact-box {
+    background: #fff;
+    padding: 30px 90px 30px 20px;
+    border-radius: 5px;
+    position: relative;
+    -webkit-transition: .5s;
+    transition: .5s;
+    -webkit-box-shadow: 0 0 1.25rem rgba(108,118,134,0.1);
+    box-shadow: 0 0 1.25rem rgba(108,118,134,0.1);
+}
+.leave-your-message {
+    text-align: right;
+}
+.leave-your-message .stay-connected ul {
+    padding-right: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+}
+.leave-your-message .stay-connected ul li a i {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    display: inline-block;
+    line-height: 40px;
+    border: 1px solid;
+    border-radius: 50%;
+    margin-right: 8px;
+    margin-left: 15px;
+}
+#contactForm {
+    background: #fff;
+    padding: 30px;
+    -webkit-box-shadow: 0 0 1.25rem rgba(108,118,134,0.1);
+    box-shadow: 0 0 1.25rem rgba(108,118,134,0.1);
+    text-align: right;
+}
+#contactForm label {
+    font-weight: 600;
+    font-size: 14px;
+    font-family: 'Cairo', sans-serif !important;  
+}
+.copyright-area {
+    background-color: #000;
+    margin-top: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center
+}
+.copyright-area a{
+    color: #ffc04e
+}
+.about-content p {
+    margin-top: 15px;
+    margin-bottom: 0;
+    text-align: right;
+}
+.about-content .btn {
+    margin-top: 22px;
+    float: right;
+    margin-bottom: 15px;
+}

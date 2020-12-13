@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo&display=swap');
+body {
+    font-family: 'Cairo', sans-serif;
+}
+.cover {
+    width: 100%;
+    overflow: hidden
+}
+.section-gap {
+    padding: 90px 0;
+}
+/**** start nav ****/
+.header-top-left {
+    padding: 10px 0
+}
+.header-top-right .primary-btn span {
+    left: 10px;
+    right: auto
+}
+#mobile-nav-toggle {
+    top: 70px; 
+}
+.nav-menu > li {
+    float: right;
+}
+.nav-menu a {
+    font-size: 15px;
+}
+.header-top {
+    transition: all .4s
+}
+
+.main-menu .logo img {
+    max-width: 200px;
+}
+/***** end nav *****/
+
+/***** strat slider *****/
+.banner-area {
+    background: url(../img/hero-bg.jpg) center center;
+}
+.banner-area .overlay-bg {
+    background-color: rgba(0, 0, 0, 0.72);
+}
+.banner-content h1 {
+    font-size: 60px;
+    margin-bottom: 25px;
+    text-shadow: 2px 3px #000;
+}
+.banner-content p {
+    max-width: 800px;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.banner-content .primary-btn {
+    font-size: 17px;
+    padding: 10px 40px;
+    border-radius: 20px;
+}
+/***** end slider *****/
+
+/***** start about *****/
+section.info-area {
+    padding: 70px 0
+}
+.info-area .info-area-left img {
+    border-radius: 200px 300px 150px 150px;
+}
+.info-area-right h2 .des {
+    display: block;
+    color: #000;
+    margin-top: 10px
+}
+.info-area .info-area-right p {
+    max-width: 100%;
+    margin-right: 35px;
+    font-size: 17px;
+    margin-bottom: 12px;
+}
+.info-area .info-area-right p span {
+    font-size: 30px;
+    font-weight: 700;
+    margin-right: -40px;
+    margin-left: 7px;
+    vertical-align: text-top;
+}
+.info-area-right h2 {
+    margin-bottom: 30px;
+    color: #2ec0cf;
+}
+/***** end about *****/
+
+/***** start services *****/
+.facilities-area {
+    background-color: #fbfbfb;
+}
+.single-facilities {
+    text-align: center;
+    margin-bottom: 30px
+}
+/***** end services *****/
+
+/***** start offers *****/
+section.offer {
+    position: relative;
+    padding: 70px 0
+}  
+section.offer:after {
+    content: "%25 خصم";
+    position: absolute;
+    width: 330px;
+    height: 230px;
+    right: 0;
+    background: url(../img/offer2.png) center center;
+    background-size: cover;
+    text-align: center;
+    line-height: 195px;
+    color: #FFF;
+    font-size: 47px;
+    transform: rotate(-25deg);
+    padding-right: 90px;
+    font-weight: 700;
+}
+/***** end offers *****/
+
+/***** start works *****/
+.single-feedback-carusel {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.feedback-area {
+    background: url(../img/feedback-bg.jpg) center fixed;
+}
+.feedback-area.section-gap {
+    padding: 90px 0
+} 
+.feedback-area .overlay-bg {
+    background-color: rgba(27, 27, 27, 0.9);
+}
+.feedback-right .owl-carousel .owl-item img {
+    width: 50%!important;
+    display: inline-block!important
+}
+.feedback-area .owl-nav {
+    text-align: center;
+    margin-top: 10px
+}
+.feedback-area .owl-next, .feedback-area .owl-prev {
+    display: inline-block;
+}
+.feedback-area .owl-next span, .feedback-area .owl-prev span {
+    background-color: #fff;
+    padding: 10px;
+    font-size: 15px;
+    margin: 12px
+    
+}
+/***** end works *****/
+
+/***** start contact *****/
+.contact-page-area.section-gap {
+    padding: 80px 0 0 0
+}
+.contact-page-area .address-wrap .single-contact-address .lnr {
+    margin-left: 30px;
+    margin-right: auto
+}
+.contact-details {
+    text-align: right
+}
+form {
+    margin-bottom: 30px
+}
+/***** end contact *****/
+
+/***** start footer *****/
+.footer-area {
+    padding: 25px;
+    text-align: center
+}
+.footer-text {
+    margin-bottom: 0;
+}
+
+/***** end footer *****/
+
+/*----- start fixed mobile ------*/
+.con_icons {
+    width: 100%;
+    background-color: #008fa5;
+    position: fixed;
+    bottom: 0;
+    left: -4px;
+    transition: all ease-in-out .4s;
+    height: 75px;
+    line-height: 75px;
+    box-shadow: none;
+    z-index: 16000170;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    border-radius: 0 50px;
+}
+
+.con_icons p {
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    line-height: 75px;
+}
+.con_icons .contain {
+    background-color: #ffffff;
+    position: relative;
+    bottom: 0px;
+    width: 100px;
+    height: 75px;
+    border-radius: 0 0 138px 0;
+    left: 0px;
+    float: left;
+} 
+.con_icons .fixed_whats {
+    width: 50%;
+    height: 60%;
+    background: url(../img/whatsapp.webp) center center;
+    background-size: cover;
+    position: absolute;
+    bottom: 18px;
+    left: 15px;
+}
+.con_icons .fixed_mobile span {
+    background-color: #FFF;
+    color: #008fa5;
+    padding: 6px;
+    border-radius: 50%;
+    font-size: 18px;
+}
+@media (min-width: 576px) {
+    .con_icons {
+        display: none
+    }
+}
+@media (max-width: 576px) {
+    .footer-area {
+        padding: 20px 0 90px;
+    }
+}
+/*----- end fixed mobile ------*/

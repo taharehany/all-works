@@ -1,0 +1,277 @@
+.area-heading {
+    text-align: center
+}
+.area-padding-top {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+/***** start top navbar ****/
+.top_menu {
+    background-color: #FFF;
+    border-bottom: 0
+}
+.top_menu .dn_btn i {
+    font-size: 20px;
+    vertical-align: sub;
+}
+.top_menu .dn_btn {
+    font-size: 15px;
+}
+.top_menu .dn_btn a {
+    color: #797979
+}
+.banner-area h1 {
+    font-size: 48px;
+    color: #004b9c;
+    font-weight: 600;
+    font-family: 'Droid Arabic Kufi', serif;
+    margin-bottom: 30px;
+}
+.header_area .navbar .nav .nav-item .nav-link {
+    font: 500 12px/80px 'Droid Arabic Kufi', sans-serif;
+    text-transform: uppercase;
+    color: #020a21;
+    padding: 0px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+}
+/**** start navbar ****/
+.header_area .navbar {
+    background: rgba(255, 255, 255, 0.65);
+    padding: 10px 0;
+}
+.header_area .navbar .logo_h {
+    height: auto;
+    line-height: 0;
+}
+.header_area .navbar .nav .nav-item:last-child {
+    margin-right: 45px;
+}
+.header_area .navbar .nav .nav-item:first-child {
+    margin-right: 0;
+}
+.top_menu .header_social li a i {
+    border: 1px solid #797979;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+
+/***** start slider *****/
+.header_area + section {
+    margin-top: 0;
+}
+.banner-area p {
+    margin-bottom: 29px;
+    font-size: 29px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #b7b7b7;
+        color: #000;
+}
+
+/***** start section under slider *****/
+.feature-section .card {
+    background-color: rgba(255,255,255)
+}
+.feature-section .card-feature__icon {
+    text-align: center;
+    margin-bottom: 40px
+}
+
+.feature-section .card-feature__icon i {
+    color: #0051d2;
+    font-size: 50px;
+    margin-right: 0;
+    border: 1px solid;
+    padding: 16px;
+    border-radius: 50%;
+}
+.feature-section .card-feature__title {
+    font-size: 25px;
+    color: #3e3e3e;
+}
+/**** start about ****/
+.about-area {
+    background: #f7f7f7;
+    padding-top: 140px;
+    padding-bottom: 165px;
+    margin-top: 0;
+    background-image: url(../img/background/bg_1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about-area .main_btn_light {
+    margin-top: 20px;
+}
+.about-area .about-content h4 {
+    line-height: 1.5;
+    font-size: 32px
+}
+.about-area .about-content p {
+    margin-right: 40px;
+    font-size: 17px
+}
+.about-area .about-content p i {
+    color: #33363e;
+    font-size: 16px;
+    margin-right: -50px;
+    margin-left: 6px;
+    border: 1px solid;
+    padding: 9px;
+    border-radius: 50%;
+}
+
+/***** start services ******/
+.card-service {
+    margin-bottom: 35px
+}
+.card-service__link {
+    color: #38a4ff;
+    letter-spacing: normal;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+.card-service__link:after {
+    content: '';
+    position: absolute;
+    right: auto;
+    left: auto;
+    bottom: -14px;
+    height: 2px;
+    width: 40px;
+    background: #33363e;
+}
+.card-service__link:hover:after {
+    width: 80px;
+    background: #0f8bc9;
+}
+
+/***** start offers *****/
+.hotline-area:after {
+    background: #0f8bc9;
+}
+.hotline-area h2 {
+    color: #fff;
+    font-size: 43px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+.hotline-area p {
+    font-size: 29px;
+    font-weight: 600;
+}
+.hotline-area span {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    display: block;
+    margin-top: 60px;
+    text-shadow: 1px 1px 2px #000;
+}
+.hotline-area span a {
+    color: #FFF
+}
+
+
+/****** start contact *****/
+.appointment-inner {
+    text-align: right
+}
+.footer-area .footer-bottom {
+    margin-top: 5px;
+    padding: 30px 0;
+    border-top: 1px solid #e8edf1;
+}
+.footer-text a {
+    display: block
+}
+.contact-info .media-body p {
+    color: #999999;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 12px;
+}
+.contact-info .media-body p a {
+    color: #999999;
+ 
+}
+
+.appointment-form a {
+    padding: 0px 37px;
+    background-color: #0f8bc9
+}
+.appointment-form .main_btn {
+    max-width: 120px
+}
+
+
+
+/*----- start fixed mobile ------*/
+.con_icons {
+    width: 100%;
+    background-color: #004b9c;
+    position: fixed;
+    bottom: 0;
+    left: -4px;
+    transition: all ease-in-out .4s;
+    height: 75px;
+    line-height: 75px;
+    box-shadow: none;
+    z-index: 16000170;
+    box-shadow: 2px 0px 5px #000;
+    border-radius: 0 50px;
+}
+.con_icons p {
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    line-height: 75px;
+}
+.con_icons .contain {
+    background-color: #ffffff;
+    position: relative;
+    bottom: 0px;
+    width: 100px;
+    height: 75px;
+    border-radius: 0 0 138px 0;
+    left: 0px;
+    float: left;
+} 
+.con_icons .fixed_whats {
+    width: 50%;
+    height: 60%;
+    background: url(../img/whats.webp) center center;
+    background-size: cover;
+    position: absolute;
+    bottom: 18px;
+    left: 15px;
+}
+.con_icons .fixed_mobile i {
+    background-color: #FFF;
+    color: #004b9c;
+    padding: 6px;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+@media (min-width: 576px) {
+    .con_icons {
+        display: none
+    }
+}
+
+@media (max-width: 576px) {
+    .footer-area {
+        padding: 20px 0px 90px;
+    }
+    .footer-area .footer-bottom {
+        margin-top: 0;
+        padding: 30px 0 0;
+    }
+}
+/*----- end fixed mobile ------*/

@@ -1,0 +1,396 @@
+main {
+  overflow: hidden;
+}
+
+.section-tittle h2 {
+  font-size: 40px;
+  color: #396a77;
+}
+
+.preloader .preloader-circle {
+  border-top-color: #396A77;
+  width: 200px;
+  height: 200px;
+}
+.preloader .preloader-img {
+  padding-top: 0;
+}
+.preloader .preloader-img img {
+  max-width: 100%;
+  margin: 20px;
+}
+
+.btn {
+  padding: 30px 40px;
+  font-size: 18px;
+}
+
+.btn::after {
+  display: none;
+  padding: 30px 40px;
+  font-size: 17px;
+}
+
+/* header-area */
+.header-area.header-transparent {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.header-area .main-header.header-sticky.sticky-bar {
+  background-color: #fff;
+}
+.header-area .main-header.header-sticky.sticky-bar .main-menu ul li a {
+  color: #000;
+}
+.header-area .main-header.header-sticky.sticky-bar .main-menu ul li a.active {
+  color: #3ba7c3;
+}
+.header-area .main-header.header-sticky.sticky-bar .slicknav_menu .slicknav_btn .slicknav_icon-bar {
+  background-color: #000 !important;
+}
+.header-area .main-header .logo {
+  text-align: right;
+}
+.header-area .main-header .logo a img {
+  max-width: 75px;
+}
+.header-area .main-header .main-menu nav {
+  margin-right: 0;
+}
+.header-area .main-header .main-menu nav ul {
+  padding-right: 0;
+}
+.header-area .main-header .main-menu nav ul li a {
+  color: #000;
+  padding: 29px 18px;
+}
+.header-area .main-header .main-menu nav ul li a:first-child {
+  padding: 24px 0 20px 19px;
+}
+.header-area .main-header .main-menu nav ul li a.active {
+  color: #3ba7c3;
+  position: relative;
+}
+.header-area .main-header .main-menu nav ul li a.active::after {
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+  width: 50%;
+  height: 1px;
+  background: #43aac5;
+  content: "";
+  opacity: 1;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.3s, width 0.4s;
+  -moz-transition: opacity 0.3s, width 0.4s;
+  transition: opacity 0.3s, width 0.4s;
+}
+.header-area .main-header .main-menu .hamburger-menu {
+  float: none;
+}
+.header-area .main-header .slicknav_menu .slicknav_btn .slicknav_icon-bar {
+  background-color: #000 !important;
+}
+.header-area .main-header .mobile_menu .slicknav_menu .slicknav_btn {
+  top: -50px;
+}
+.header-area .main-header .slicknav_nav li {
+  text-align: left;
+}
+.header-area .main-header .slicknav_nav.slicknav_none {
+  display: none !important;
+}
+.header-area .main-header .slicknav_nav.slicknav_block {
+  display: block !important;
+}
+
+/* header-area */
+/* slider-area */
+.slider-area .slide-full-content {
+  text-align: right;
+}
+.slider-area .slide-full-content h1 {
+  font-size: 45px;
+  line-height: 1.4;
+  color: #000000;
+  font-weight: 500;
+}
+.slider-area .slide-full-content h1 span {
+  color: #000;
+  margin-bottom: 0;
+  padding: 0;
+}
+.slider-area .slide-full-content p {
+  padding-right: 0;
+  margin-bottom: 15px;
+}
+.slider-area .slide-full-content span {
+  color: #3ba7c3;
+  font-size: 50px;
+}
+.slider-area .slide-full-content span::before {
+  right: 0;
+  left: auto;
+}
+.slider-area .slide-full-content span::after {
+  right: 0;
+  left: auto;
+  background-color: #3ba7c3;
+}
+.slider-area .slide-full-content .btn {
+  margin-top: 40px;
+}
+.slider-area .slide-full-content .counter::after {
+  display: none;
+}
+.slider-area .slide-full-content .counter::before {
+  display: none;
+}
+.slider-area .custom-dots .owl-dots {
+  left: 10%;
+  right: auto;
+}
+.slider-area .custom-dots .owl-dots .owl-dot {
+  color: #3ba7c3;
+  position: relative;
+  font-size: 23px;
+  opacity: 0.6;
+  padding: 7px;
+}
+.slider-area .custom-dots .owl-dots .owl-dot.active {
+  opacity: 1;
+  font-size: 28px;
+  background-color: #fff;
+  text-align: center;
+  padding: 7px;
+  border-radius: 50%;
+}
+.slider-area .slider-height {
+  height: 700px;
+}
+.slider-area .slide-full {
+  background-position: left;
+}
+
+/* slider-area */
+/* about-area */
+.about-area .section-tittle h2 {
+  font-size: 29px;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+.about-area .about-list ul {
+  margin-bottom: 20px;
+}
+.about-area .about-list ul li {
+  line-height: 1.9;
+}
+.about-area .about-list ul li a {
+  font-size: 16px;
+  color: #64676c;
+  line-height: 1.6;
+  font-weight: 600;
+}
+.about-area .about-caption {
+  text-align: right;
+}
+.about-area .about-caption p {
+  padding-right: 0;
+  margin-bottom: 15px;
+}
+.about-area .about-caption p b {
+  color: #396a77;
+  font-weight: 700;
+  font-size: 18px;
+}
+.about-area .about-caption .btn {
+  margin-top: 20px;
+}
+
+/* about-area */
+/* starups-area */
+.starups-area .starups-img {
+  background-image: url(../img/bg-startup.jpg);
+  display: flex;
+  align-items: center;
+}
+.starups-area .starups-img .play-btn {
+  position: relative;
+  transform: none;
+}
+.starups-area .starups-img .play-btn iframe {
+  border-radius: 25px;
+  width: 100%;
+  min-height: 250px;
+}
+.starups-area .starups {
+  text-align: right;
+}
+.starups-area .starups h3 {
+  color: #fff;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+.starups-area .starups h3 a {
+  font-weight: 600;
+  color: #7dc623;
+}
+.starups-area .starups ul li {
+  color: #fff;
+  position: relative;
+  padding-right: 25px;
+}
+.starups-area .starups ul li i {
+  position: absolute;
+  right: 0;
+  line-height: 1.5;
+}
+.starups-area .starups .testimonial-top-cap .play-btn {
+  margin-top: 25px;
+}
+.starups-area .starups .testimonial-top-cap .play-btn .popup-video {
+  border: 1px solid #fff;
+  padding: 10px 40px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.starups-area .starups .testimonial-top-cap .play-btn .popup-video i {
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+/* starups-area */
+/* service-area */
+.service-area .service-bg {
+  background-image: none;
+}
+.service-area .section-tittle span {
+  color: #000;
+}
+.service-area .services-caption {
+  padding: 60px 35px 60px;
+}
+.service-area .services-caption .service-icon i {
+  margin-bottom: 30px;
+  color: #5aa200;
+}
+.service-area .services-caption .service-cap h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.service-area .services-caption .service-cap p {
+  margin-bottom: 0;
+  height: 140px;
+}
+.service-area .services-caption:hover {
+  box-shadow: 0px 0px 15px #cecece;
+}
+
+/* service-area */
+/* clients-area */
+.clients-area {
+  padding: 100px 0;
+  background-color: #f8f8f8;
+  direction: rtl;
+}
+.clients-area .client-item {
+  border: 1px solid #eee;
+  background-color: #fff;
+  padding: 10px;
+}
+.clients-area .client-item img {
+  max-width: 80%;
+  margin: auto;
+}
+
+/* clients-area */
+/* contact-area */
+.contact-section {
+  padding: 100px 0 45px;
+}
+.contact-section .contact-info__icon {
+  margin-right: 0;
+  margin-left: 10px;
+}
+.contact-section .media-body p a {
+  color: #8a8a8a;
+}
+.contact-section .form-contact .form-group {
+  margin-bottom: 15px;
+}
+.contact-section .form-contact .form-control {
+  border-radius: 10px;
+  height: 40px;
+  padding-left: 10px;
+  padding-right: 18px;
+}
+.contact-section .boxed-btn {
+  background: #fff;
+  color: #396a77 !important;
+  border: 1px solid #396a77;
+  border-radius: 20px;
+  letter-spacing: 0;
+  padding: 10px 35px;
+}
+.contact-section .boxed-btn:hover {
+  background: #7dc623;
+  color: #fff !important;
+  border: 1px solid #7dc623;
+}
+.contact-section .map {
+  margin-top: 30px;
+}
+
+/* contact-area */
+/* footer-area */
+.footer-area {
+  padding: 30px 0;
+}
+.footer-area .footer-bottom p {
+  color: #fff;
+  margin-bottom: 0;
+}
+.footer-area .footer-bottom .footer-social {
+  margin-bottom: 15px;
+}
+.footer-area .footer-bottom .footer-social a {
+  padding-left: 0;
+  margin-left: 3px;
+}
+.footer-area .footer-bottom .footer-social a:hover i {
+  transform: none;
+  background-color: #000;
+  color: #fff;
+  border-color: #000;
+}
+.footer-area .footer-bottom .footer-social a i {
+  border: 1px solid #fff;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+/* footer-area */
+#scrollUp,
+#back-top {
+  background: #7dc623;
+}
+
+.btn::before {
+  background-color: #5aa200;
+}
+
+div.wh-widget-send-button-wrapper div.wh-widget-send-button-wrapper-list a.wh-widget-send-button-get-button {
+  display: none !important;
+}
+div.wh-widget-send-button-wrapper div.wh-widget-send-button-wrapper-list a.wh-widget-send-button-get-button:hover {
+  display: none !important;
+}
+
+.wh-free a.wh-widget-send-button-get-button {
+  display: none !important;
+}
+
+/*# sourceMappingURL=over-style.css.map */

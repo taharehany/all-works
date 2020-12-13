@@ -1,0 +1,29 @@
+.nav-menu > li {
+    float: right;
+    padding: 10px;
+    position: relative
+}
+.nav-menu > li::after {
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 2px;
+    background-color: #000;
+    right: 25px;
+    top: 100%;
+    transition: all .4s
+}
+.nav-menu > li:hover::after {
+    width: 35px;
+}
+
+
+.home-banner-content h1 {
+    font-size: 30px;
+    line-height: 1.8;
+}
+.home-banner-content h1 span{
+    font-size: 45px;
+    display: block;
+    margin-top: 25px;
+}

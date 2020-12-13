@@ -1,0 +1,42 @@
+@media (max-width: 991px) {
+    .owl-carousel.home-slider .slider-item .slider-text .subheading {
+        font-size: 25px;
+    }
+    .serv-section-2 p {
+        height: auto;
+    }
+    .ftco-navbar-light {
+        background: #fff !important;
+    }
+}
+
+@media (max-width: 767px) {
+ 
+    .owl-carousel.home-slider .slider-item .slider-text h1 {
+        font-size: 55px;
+    }
+}
+@media (max-width: 600px) {
+ 
+    .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+        padding-right: 19px
+    }
+    .biz-project-popup-text p {
+        font-size: 12px;
+    }
+    .mfp-content {
+        padding: 10px
+    }
+}
+
+@media (max-width: 400px) {
+    .owl-carousel.home-slider .slider-item .slider-text h1 {
+        font-size: 40px;
+    }
+    .owl-carousel.home-slider .slider-item .slider-text .subheading {
+        font-size: 20px;
+    }
+    .save-section h2 {
+        font-size: 35px;
+    }
+}

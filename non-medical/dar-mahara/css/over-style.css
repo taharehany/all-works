@@ -1,0 +1,171 @@
+.header-nav .nav > li > a {
+    font-weight: 700
+}
+.logo-header {
+    width: 200px
+}
+.content-inner-2 {
+    padding-bottom: 70px
+}
+.top-logo a img {
+    position: absolute;
+    z-index: 9999;
+    background-color: #FFF;
+    padding: 20px 15px;
+    max-width: 350px;
+}
+.header-curve .logo-header:before {
+    right: -22px;
+}
+.clean-header .main-bar .header-nav .nav {
+    margin: 0 10px 0 auto;
+}
+.top-infobox .icon-md {
+    margin-left: 15px;
+    margin-right: auto
+}
+.clean-header .main-bar .header-nav .nav > li > a {
+    font-size: 16px;
+    padding: 18px 20px;
+}
+.top-time,.top-call-us{
+    text-align: right
+}
+.sr-providers .icon-bx-wraper.left .icon-lg {
+    float: right;
+    margin-left: 10px;
+    margin-right: auto
+}
+
+.sr-providers h2 {
+    font-size: 45px;
+}
+.team-box .social-icon li {
+    width: 50%;
+    border-left: 1px solid #e7f8fc;
+}
+.testimonials .testimonial-text p {
+    font-size: 13px;
+    max-width: 90%;
+    margin: auto;
+}
+.owl-btn-center-lr .owl-nav .owl-next {
+    left: auto;
+    right: -30px;
+}
+.owl-btn-center-lr .owl-nav .owl-next {
+    left: auto;
+    right: 0;
+}
+.owl-btn-center-lr .owl-nav .owl-prev {
+    left: 0;
+}
+
+.contact-form-bx .focused label {
+    right: 0;
+    left: auto
+}
+.contact-form-bx label {
+    right: 0;
+    left: auto
+}
+.site-footer .widget-title:after {
+    right: 0;
+    left: auto
+}
+
+.links li {
+    padding: 5px 0
+}
+.links li a {
+    color: #8fb5e3;
+    
+}
+.links li a i {
+    font-size: 10px
+}
+.widget_getintuch li {
+    padding-right: 40px;
+    padding-left: 0
+}
+.widget_getintuch i {
+    right: 0;
+    left: auto
+}
+.widget_getintuch li a {
+    color: #8fb5e3
+}
+
+.team-box .media-box:after {
+    width: 100%;
+    height: 175px;
+    content: "";
+    background-image: url(../images/our-team/team-bg3.png), url(../images/our-team/team-bg2.png), url(../images/our-team/team-bg1.png);
+    position: absolute;
+    background-size: cover;
+    left: 0px;
+    top: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: -170%;
+    transition: all 0.5s;
+}
+.team-box:hover .media-box:after {
+    background-position: bottom 0px right 0px, bottom 0px right 0px, bottom 0px right 0px;
+    background-size: 100%;
+}
+/**** satart about page ****/
+.page_about .bnr-inr {
+    background-position: center bottom;
+}
+
+.page_about .about-1 .site-button {
+    padding: 17px 30px;
+}
+
+
+/**** satart services page ****/
+.page_services .box{
+    text-align: right
+}
+.page_services .info p {
+    text-align: right
+}
+
+/**** satart contact page ****/
+.page_contact .icon-bx-wraper.left .icon-bx-xs {
+    float: right;
+    margin-left: 20px;
+    margin-right: auto
+}
+
+.page_contact .icon-bx-wraper {
+    text-align: right
+}
+
+.page_contact .contact-style-1 .social-icon-lg {
+    text-align: right;
+}
+
+.logo-bx .site-button.radius-xl {
+    padding: 10px 15px;
+}
+
+/***** start global *****/
+footer.clear-sef-footer .footer-bottom a {
+    color: #072d5a;
+    padding-left: 5px;
+    background-color: #FFF;
+    border-radius: 5px;
+    padding: 0px 7px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+

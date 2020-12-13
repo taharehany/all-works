@@ -1,0 +1,64 @@
+@media (max-width: 992px) {
+    .about .text h2 {
+        font-size: 25px
+    }
+    .about .text {
+        padding-right: 0;
+        padding-top: 30px;
+    }
+    .about .list-about {
+        margin-bottom: 20px
+    }
+    .about .list-about li {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .about .btn.btn-lg {
+        padding: 13px 25px !important
+    }
+    .services-sec .services {
+        height: auto
+    }
+    .colorlib-map .map {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .colorlib-nav .btn-cta {
+        margin-top: -10px;
+        margin-right: 50px;
+    }
+    .about {
+        padding: 40px 0
+    }
+    .about .text {
+        margin-bottom: 30px
+    }
+    .about .list-about li {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 520px) {
+    #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
+        font-size: 25px
+    }
+    #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
+        font-size: 17px
+    }
+    #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
+        padding: 15px 20px !important;
+        font-size: 11px;
+    }
+    .about .list-about li {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 400px) {
+    .colorlib-nav #colorlib-logo a img {
+        max-width: 80px
+    }
+    
+}

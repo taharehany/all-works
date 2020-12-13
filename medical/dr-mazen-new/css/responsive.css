@@ -1,0 +1,51 @@
+@media (max-width: 1199px){
+    
+}
+@media (max-width: 991px){
+    .home-banner-content h1 {
+        font-size: 44px;
+    }
+    .home-banner-content .buttons p span {
+        font-size: 15px;
+    }
+    .home-banner-content .buttons i {
+        font-size: 35px;
+        padding-left: 15px
+    }
+    .download-button {
+        -webkit-box-direction: normal !important;
+        -webkit-box-orient: vertical !important;
+        -webkit-flex-direction: row !important;
+        -moz-flex-direction: row !important;
+        -ms-flex-direction: row !important;
+        flex-direction: row !important;
+    }
+    #mobile-nav-toggle i {
+        color: #353535;
+    }
+    .main-menu {
+        padding-top: 20px;
+    }
+    .home-banner-area .fullscreen {
+        height: 630px !important;
+    }
+    .about-area {
+        padding: 70px 0 70px;
+    }
+    .home-about-left img {
+        display: block;
+    }
+   
+}
+@media (max-width: 767px){
+    .home-banner-area .banner-img img {
+        width: 50%;
+        position: absolute;
+        left: -109px;
+        bottom: 88px;
+    }
+    .home-banner-area .banner-img {
+        display: block;
+    }
+    
+}

@@ -1,0 +1,235 @@
+img {
+  max-width: 100%;
+}
+
+.btn.btn-primary {
+  background: #072345 !important;
+  border: 1px solid #072345 !important;
+  color: #fff !important;
+}
+
+.heading-section .subheading {
+  color: #072345;
+}
+.heading-section .subheading:before {
+  background: #072345;
+}
+.heading-section .subheading:after {
+  background: #072345;
+}
+
+/* navbar */
+.ftco-navbar-light .navbar-toggler i {
+  font-size: 35px;
+}
+.ftco-navbar-light.scrolled .nav-item.active > a {
+  color: #072345 !important;
+}
+.ftco-navbar-light.scrolled .navbar-brand {
+  max-width: 170px;
+}
+.ftco-navbar-light.scrolled .navbar-brand:after {
+  display: none;
+}
+.ftco-navbar-light.scrolled .navbar-brand .blue {
+  display: inline-block;
+}
+.ftco-navbar-light.scrolled .navbar-brand .white {
+  display: none;
+}
+.ftco-navbar-light .navbar-nav {
+  padding-right: 0;
+}
+.ftco-navbar-light .navbar-nav > .nav-item.active a {
+  color: #fff;
+}
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+  color: #fff;
+  font-size: 14px;
+  padding-top: 10px;
+  font-weight: 500;
+}
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+  color: #fff;
+  transition: all 0.3s;
+}
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
+  color: #ffffff;
+  font-weight: 700;
+}
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link:first-child {
+  padding-right: 0;
+}
+.ftco-navbar-light .navbar-brand {
+  max-width: 170px;
+}
+.ftco-navbar-light .navbar-brand:after {
+  display: none;
+}
+.ftco-navbar-light .navbar-brand .blue {
+  display: none;
+}
+
+/* navbar */
+/* hero */
+.hero-wrap {
+  height: auto;
+}
+
+.mouse-icon {
+  border: 1px solid #072345;
+  background: #072345;
+}
+
+/* hero */
+/* about */
+.ftco-fullwidth .overlay {
+  opacity: 1;
+  background: #f3f3f3;
+}
+.ftco-fullwidth .services-wrap .icon {
+  background: #072345;
+}
+
+/* about */
+/* services */
+.services {
+  margin-bottom: 70px;
+  border: 1px solid #052143;
+}
+.services .icon img {
+  max-width: 50%;
+}
+.services:hover {
+  background-color: #072345;
+}
+.services:hover .icon {
+  background: #082446;
+}
+.services:hover .icon span {
+  color: #072345;
+}
+.services:hover .icon:after {
+  border-color: transparent transparent #082446 transparent;
+}
+.services:hover .icon:before {
+  border-color: #072345 transparent transparent transparent;
+}
+.services .media-body {
+  margin-top: 30px;
+}
+.services .icon {
+  background: #062244;
+}
+.services .icon:after {
+  border-color: transparent transparent #062244 transparent;
+}
+.services .icon:before {
+  border-color: #062244 transparent transparent transparent;
+}
+
+/* services */
+/* services */
+.progress-circle p span {
+  font-size: 17px;
+  font-weight: 800;
+  color: #072345;
+}
+
+.services-2:hover {
+  background: #072345;
+}
+.services-2:hover p {
+  color: white;
+  opacity: 1;
+}
+.services-2.active p {
+  color: white;
+  opacity: 1;
+}
+
+.services-2 p {
+  opacity: 1;
+}
+
+/* services */
+/* services */
+section.request .over-lay {
+  background-color: #072345;
+  min-height: 100%;
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+section.request .over-lay h2 {
+  color: #ffffff;
+  font-size: 27px;
+  line-height: normal;
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+section.request .over-lay p {
+  font-size: 25px;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+section.request .over-lay a {
+  color: #FFF;
+  font-weight: bold;
+  font-size: 35px;
+  border: 5px solid #fff;
+  padding: 10px;
+  display: inline-block;
+}
+
+section.contact {
+  padding-top: 70px;
+}
+
+section.contact .form-contact,
+section.contact .form-info {
+  margin-top: 30px;
+}
+
+/* services */
+/* contact */
+.ftco-section .contact-wrap {
+  background: #f7f7f7;
+}
+.ftco-section .contactForm .form-control {
+  padding-right: 10px;
+}
+.ftco-section .contactForm .form-control:active, .ftco-section .contactForm .form-control:focus {
+  border-color: #072345 !important;
+}
+.ftco-section .contactForm .label {
+  color: #072345 !important;
+}
+.ftco-section .map {
+  width: 100%;
+}
+.ftco-section .dbox .icon {
+  background-color: #072345;
+}
+.ftco-section .dbox p a {
+  color: #072345;
+}
+
+/* contact */
+/* footer */
+.ftco-footer {
+  padding: 1em 0;
+}
+.ftco-footer p {
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+/* footer */
+
+/*# sourceMappingURL=over-style.css.map */

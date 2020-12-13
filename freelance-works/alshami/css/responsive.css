@@ -1,0 +1,114 @@
+@media (max-width: 1199px){
+    .header_area .navbar .nav .nav-item {
+        margin-right: 28px;
+        text-align: right;
+    }
+    .header_area .navbar .nav .nav-item:first-child {
+        margin-right: 28px;
+    }
+    
+}
+
+@media (max-width: 991px){
+    .header_area .navbar {
+        background: #fff;
+    }
+    .navbar-toggler {
+        border: none;
+        border-radius: 0px;
+        padding: 0px;
+        cursor: pointer;
+        margin-top: 27px;
+        margin-bottom: 23px;
+    }
+    .navbar .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .navbar-toggler span {
+        display: block;
+        width: 25px;
+        height: 3px;
+        background: #a91d35;
+        margin: auto;
+        margin-bottom: 4px;
+        transition: all 400ms linear;
+        cursor: pointer;
+    }
+    .navbar-toggler[aria-expanded="true"] span:last-child {
+        transform: rotate(45deg);
+        bottom: 6px;
+        position: relative;
+    }
+    .navbar-toggler[aria-expanded="true"] span:nth-child(2) {
+        opacity: 0;
+    }
+    .navbar-toggler[aria-expanded="true"] span:first-child {
+        transform: rotate(-45deg);
+        position: relative;
+        top: 7.5px;
+    }
+    .header_area .navbar-collapse {
+        height: auto;
+        overflow-y: hidden;
+    }
+    .header_area .navbar .nav .nav-item .nav-link {
+        line-height: 40px;
+        margin-right: 0px;
+        display: block;
+        border-bottom: 1px solid #ededed33;
+        border-radius: 0px;
+    }
+    .nav {
+        padding: 0px 0px;
+    }
+    .header_area + section, .header_area + row, .header_area + div {
+        margin-top: 71px;
+    }
+}
+
+@media (max-width: 767px){
+    .slider_text_inner .slider_text h2 {
+        font-size: 39px;
+    }
+    .slider_text_inner .slider_text p {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 500px){
+    .slider_text_inner .slider_text {
+        padding: 25px;
+    }
+    .slider_text_inner .slider_text h2 {
+        font-size: 25px;
+    }
+    .slider_text_inner .slider_text p {
+        font-size: 18px;
+    }
+    .banner_btn, .banner_btn2  {
+        padding: 0px 20px;
+    }
+    .navbar-light .navbar-brand img {
+        max-width: 130px
+    }
+    .header_area .navbar .nav.navbar-nav.navbar-right li:last-child {
+        margin-left: 10px;
+    }
+    .header_area .navbar .nav.navbar-nav.navbar-right li.number a {
+        font-size: 13px;
+        padding: 4px 10px;
+    }
+    .header_area .navbar .nav.navbar-nav.navbar-right {
+        max-width: 140px;
+        width: 100%;
+    }
+    .slider_text_inner .slider_text:before {
+        height: 380px;
+    }
+}
+@media (max-width: 350px){
+    .navbar-light .navbar-brand img {
+        max-width: 100px;
+    }
+}

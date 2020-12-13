@@ -1,0 +1,59 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {}
+
+/* small mobile :320px. */
+@media (max-width: 992px) {
+    .section-padding2 {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+}
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .slider-area .hero__caption p {
+        line-height: normal
+    }
+
+    .department_area .depart_ment_tab .nav li a i {
+        font-size: 25px;
+        margin-right: 0;
+        margin-bottom: 0;
+        margin-left: 5px;
+    }
+    .department_area .dept_main_info .dept_info {
+        height: auto
+    }
+}
+
+/* small mobile :320px. */
+@media (max-width: 500px) {
+    .slider-area .hero__caption p {
+        font-size: 18px
+    }
+
+    .slider-area .hero__caption span {
+        font-size: 18px;
+        margin-bottom: 5px
+    }
+
+    .slider-area .hero-btn {
+        padding: 10px 15px 10px 55px;
+
+    }
+
+    /* Large Mobile :480px. */
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+        .container {
+            width: 450px
+        }
+
+    }

@@ -1,0 +1,73 @@
+
+@media (max-width: 992px) {
+    .none-mobile {
+        display: none
+    }
+    .slicknav_nav {
+        a {
+            font-size: 15px
+        }
+    }
+}
+@media (max-width: 767px) {
+    .slider_area {
+        .single_slider {
+            .slider_text {
+                h3 {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    .quality_area {
+        .single_quality {
+            height: auto;
+            padding: 25px 30px 25px 30px;
+        }
+    }
+    .depertment_area {
+        .depart_ment_tab {
+            .nav {
+                li {
+                    a {
+                        margin-bottom: 7px;
+                        justify-content: flex-start;
+                        padding: 12px;
+                        i {
+                            font-size: 17px;
+                            margin-left: 5px;
+                            margin-right: 0;
+                        }
+                        h4 {
+                            font-size: 12px
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 500px) {
+    .slider_area {
+        .single_slider {
+            .slider_text {
+                h3 {
+                    font-size: 15px;
+                    &.clinic {
+                        font-size: 14px
+                    }
+                }
+                > span {
+                    font-size: 25px
+                }
+                .btn-div {
+                    margin-top: 25px;
+                    a {
+                        font-size: 14px;
+                        padding: 12px 23px;
+                    }
+                }
+            }
+        }
+    }
+}

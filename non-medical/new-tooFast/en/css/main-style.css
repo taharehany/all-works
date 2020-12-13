@@ -1,0 +1,289 @@
+.topbar .mega-menu .menu-links > li {
+    line-height: 0;
+}
+
+.topbar .mega-menu {
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+    float: none;
+    position: relative;
+    z-index: 999;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    min-height: 0;
+    clear: both;
+    box-sizing: border-box;
+}
+
+.topbar .mega-menu .menu-links > li > a {
+    margin: 0;
+    padding: 0 13px;
+    display: inline-block;
+    float: none;
+    width: 100%;
+    color: #ffffff;
+    font-size: 0.933em;
+    line-height: 2;
+    position: relative;
+    text-transform: capitalize;
+}
+
+@font-face {
+    font-family: 'DINNextLTW23-Medium';
+    src: url('../fonts/DINNextLTW23-Medium.eot');
+    src: url('../fonts/DINNextLTW23-Medium.woff2') format('woff2'),
+         url('../fonts/DINNextLTW23-Medium.woff') format('woff'),
+         url('../fonts/DINNextLTW23-Medium.ttf') format('truetype'),
+         url('../fonts/DINNextLTW23-Medium.svg#DINNextLTW23-Medium') format('svg'),
+         url('../fonts/DINNextLTW23-Medium.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.our-service.objects-car {
+    padding-bottom: 250px;
+    margin-bottom: 0;
+}
+.mega-menu .menu-logo {
+    padding: 10px 0;
+}
+.mega-menu .menu-logo img {
+    height: 75px;
+}
+
+.content-box p {
+    font-weight: 400;
+    padding: 0 20px;
+    transition: all 0.3s ease-out 0s;
+}
+
+.our-clients .section-title {
+    margin-bottom: 0;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.feature-box-2 {
+    background: #f6f6f6;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+.mega-menu .menu-links > li > a {
+    margin: 0;
+    padding: 0 13px;
+    display: inline-block;
+    float: none;
+    width: 100%;
+    color: #f8f9fa;
+    font-size: 17px;
+    line-height: 64px;
+    position: relative;
+    text-transform: capitalize;
+  
+}
+.lang a{
+   font-family: 'DINNextLTW23-Medium'; 
+   font-size:18px;
+}
+
+.topbar .topbar-right li a:hover {
+    color:  #ff8500;
+}
+.mega-menu .menu-links > li.active a {
+    background-color: transparent;
+    color: #ff8500;
+}
+.mega-menu .menu-links > li > a:hover {
+    color: #c97406;
+}
+.mega-menu.desktopTopFixed .menu-list-items {
+    background: #343a40;
+    padding: 0px;
+}
+
+.content-box{
+    height: 310px;
+}
+
+ .content-box.active:before {
+    background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
+    color: #fff;
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+.content-box .border {
+    border: none !important;
+    position: absolute;
+    background: #ff7c07;
+    height: 0px;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+.car-item-2 .car-image {
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+}
+.content-box.active:hover:before{
+        background: rgba(73, 80, 87, 0.8392156862745098);
+}
+.content-box:hover .border, .content-box.active .border {
+    height: 10px;
+}
+
+.content-box i {
+    font-size: 48px;
+    line-height: 100px;
+    color: #e67b08;
+    width: 100%;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+.custom-block-2 .list-style-1{
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.61);
+    
+}
+.car-item-2 .car-content a:hover {
+    color: #495057;
+}
+.list-style-1 li{
+    margin: 10px;
+    font-size: 16px;
+    text-align: justify;
+        color: #363636;
+}
+.custom-block-2 h4 {
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: #c96b07;
+}
+.list-style-1 li i {
+    font-size: 17px;
+    color: #fff;
+    display: inline-block;
+    padding-right: 0;
+    padding-bottom: 0;
+    background: #eb8212;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.welcome-2 {
+    padding-bottom: 100px;
+}
+
+.our-service .feature-box-2 {
+    margin-top: 40px;
+    text-align: center;
+}
+.content h5 {
+    font-size: 23px;
+    margin: 25px 0;
+}
+.feature-box-2 i {
+    color: #ff7c07;
+    font-size: 51px;
+    margin-bottom: 30px;
+    display: block;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+.section-title {
+    margin-bottom: 0;
+    text-align: center;
+}
+.section-title h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.get-quote h2 {
+    margin-bottom: 30px;
+    line-height: 44px;
+    font-size: 21px;
+}
+.get-quote p {
+    font-size: 34px;
+}
+.text-red {
+    color: #ff8707;
+}
+/* End Menu */
+
+
+.car-item-2 .car-content a {
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #f4a120;
+    margin-bottom: 38px;
+    display: block;
+}
+
+#cars .item {
+    
+    margin-top: 50px;
+
+}
+.button{
+    background: #f4a120;
+}
+
+footer .copyright a {
+    color: #ff9307;
+}
+
+.contact .contact-box:hover {
+    background: #f4a120;
+}
+.contact .contact-box i {
+    color: #f4a120;
+    font-size: 30px;
+    display: block;
+    margin-bottom: 20px;
+}
+.owl-carousel.owl-theme .owl-dots .owl-dot.active span {
+    background: #f4a120;
+    width: 24px;
+}
+.gray-form input:focus, .gray-form textarea:focus {
+    background: transparent;
+    border: 1px solid #f4a120 !important;
+}
+.contact .contact-box {
+    height: 210px
+}

@@ -1,0 +1,213 @@
+@media screen and (max-width: 992px) {
+    section.contact {
+        .contact-form {
+            margin-bottom: 5px
+        }
+
+        .info {}
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .wrapper {
+        section.hero {
+            .text-side {
+                p {
+                    font-size: 34px
+                }
+            }
+        }
+    }
+
+    section.about {
+        .about-content {
+            .top-part {
+                .image {
+                    width: auto;
+                    height: auto
+                }
+            }
+
+            .desc {
+                p {
+                    font-size: 20px
+                }
+            }
+        }
+    }
+
+    section.cta {
+        .cta-contant {
+            h2 {
+                font-size: 30px;
+
+                .free {
+                    font-size: 65px
+                }
+            }
+        }
+    }
+
+    section.contact {
+        .contact-form {
+            .border-form {
+                padding: 35px;
+            }
+        }
+
+        .info {
+            .info-content {
+                padding: 35px
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .wrapper {
+        section.hero {
+            padding: 200px 0 100px;
+
+            .text-side {
+                padding-top: 50px;
+
+                h1 {
+                    font-size: 80px;
+
+                    .diff-word {
+                        font-size: 120px;
+                    }
+                }
+
+                p {
+                    padding: 0 25px 0 20px;
+                }
+            }
+        }
+
+        section.about {
+            .about-content {
+                .top-part {}
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .wrapper {
+        section.hero {
+            .text-side {
+                padding-top: 0;
+
+                h1 {
+                    font-size: 60px;
+
+                    .diff-word {
+                        font-size: 100px;
+                    }
+                }
+
+                p {
+                    padding: 0;
+                    font-size: 23px
+                }
+
+                .buttons-side {
+                    a {
+                        padding: 9px 20px;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+
+    section.about {
+        .about-content {
+            .top-part {
+                .image {
+                    padding: 9px;
+
+                    .flower1 {
+                        max-width: 130px;
+                    }
+
+                    .flower2 {
+                        max-width: 150px;
+                    }
+                }
+            }
+
+            .desc {
+                h2 {
+                    .doc {
+                        font-size: 40px;
+                        margin-top: 20px;
+                        padding: 5px 20px 15px;
+
+                        p {
+                            font-size: 18px
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    section.cta {
+        .cta-contant {
+            h2 {
+                font-size: 20px;
+
+                .free {
+                    font-size: 37px;
+                    margin-bottom: 20px;
+                    display: inline-block;
+                    color: #d147a5;
+                    background-color: #ffffff;
+                    padding: 0px 20px 10px;
+                    border-radius: 90px;
+                }
+            }
+        }
+    }
+
+    section.contact {
+        .contact-form {
+            padding: 10px;
+
+            h3 {
+                font-size: 16px
+            }
+
+            .border-form {
+                padding: 15px;
+            }
+        }
+
+        .info {
+            padding: 10px;
+
+            .info-content {
+                padding: 20px;
+                h2 {
+                    font-size: 18px;
+                }
+
+                .box {
+                    p {
+                        padding-right: 30px;
+                        font-size: 14px;
+
+                        i {
+                            height: 25px;
+                            width: 25px;
+                            line-height: 25px;
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

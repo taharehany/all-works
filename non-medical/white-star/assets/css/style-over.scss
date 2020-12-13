@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Almarai&display=swap');
+
+body {
+    font-family: "Almarai", sans-serif;
+}
+
+/**/
+.navbar-area {
+    .navbar {
+        .navbar-nav {
+            .nav-item {
+                a {
+                    font-weight: 500;
+                    
+                    &::before {
+                        height: 2px
+                    }
+                }
+            }
+        }
+    }
+}
+.navbar-brand, .sidebar-logo a {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+}
+.sidebar-logo a {
+    color: #000
+}
+/**/
+
+/**/
+.slider-area {
+    .bd-example {
+        .carousel {
+            .carousel-inner {
+                .carousel-item {
+                    .carousel-caption {
+                        .carousel-title {
+                            font-size: 35px;
+                            line-height: 60px
+                        }
+                        .carousel-btn {
+                            margin-top: 30px
+                        }
+                    }
+                }
+            }
+            .carousel-control-next, .carousel-control-prev {
+                i {
+                    font-size: 45px
+                }
+            }
+        }
+    }
+}
+/**/
+
+/**/
+.about-area {
+    background-color: #F4F6F7;
+    .section-title {
+        .title {
+            font-size: 40px
+        }
+        .text {
+            font-size: 18px;
+            line-height: 30px;
+            color: #121212;
+            margin-top: 15px;
+            margin-right: 23px;
+            
+            i {
+                margin-right: -23px
+            }
+        }
+    }
+    .about-image {
+        img {
+            box-shadow: -7px 7px 1px #2b2b2b;
+            transition: all .3s ease;
+            &:hover {
+                box-shadow: none;
+                transform: translateY(7px) translateX(-7px)
+            }
+        }
+    }
+    .about-btn {
+        margin-top: 30px;
+        
+        li {
+            a {
+                border-color: #666;
+                color: #666;
+                border-radius: 30px;
+            }
+        }
+    }
+}
+/**/
+
+/**/
+.portfolio-area {
+    background-color: #fff;
+    .single-portfolio {
+        .portfolio-text {
+            text-align: center;
+            padding-top: 10px;
+            .portfolio-title {
+                background-color: #f1f1f1;
+                padding: 15px;
+                border-radius: 10px 10px 0 0;
+                font-size: 19px;
+                font-weight: 600;
+            }
+            .text {
+                color: #121212;
+                font-size: 14px;
+                line-height: 23px;
+                margin-top: 8px;
+                text-align: center;
+                height: 160px;
+                background-color: #f1f1f1;
+                margin-top: 11px;
+                padding: 15px;
+                border-radius: 0 0 10px 10px;
+            }
+        }
+    }
+}
+/**/
+
+/**/
+.pricing-area {
+    background-color: F4F6F7
+}
+/**/
+
+/**/
+.contact-area {
+    background-color: #fff
+}
+.contact-two {
+    .contact-info {
+        margin-top: 15px;
+        li {
+            color: #6c6c6c;
+            margin-top: 20px;
+            font-size: 16px;
+            a {
+                color: #6c6c6c
+            }
+            i {
+                font-weight: 600
+            }
+        }
+    }
+}
+.form-input {
+    .input-items {
+        i {
+            right: 13px;
+            left: auto;
+        }
+        input, textarea {
+            padding-right: 44px;
+            padding-left: 20px;
+            border: 1px solid #a4a4a4;
+        }
+    }
+}
+/**/
+
+/**/
+.footer-area {
+    .copyright {
+        p {
+            font-size: 15px
+        }
+    }
+}
+/**/

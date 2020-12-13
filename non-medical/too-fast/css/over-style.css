@@ -1,0 +1,498 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css); 
+
+body {
+    font-family: 'Droid Arabic Kufi', sans-serif;
+}
+.header_area .navbar .nav.navbar-nav.navbar-right {
+    max-width: 200px;
+}
+.area-heading p {
+    color: #f38520;
+}
+.header_area .navbar .nav.navbar-nav.navbar-right .call-us a {
+    padding: 14px 15px;
+    background-color: #464551;
+}
+.header_area .navbar .nav .nav-item:last-child {
+    margin-right: 45px
+}
+.header_area .navbar .nav .nav-item {
+    margin-right: 30px;
+}
+.navbar-brand img {
+    padding: 5px 0px;
+    border-radius: 20px;
+    max-width: 150px;
+}
+.header_area {
+    background: #FFF;
+    box-shadow: 1px 1px 0px #EEE;
+}
+.header_area .navbar .nav .nav-item .nav-link {
+    text-transform: capitalize;
+    color: #434141;
+}
+.header_area.navbar_fixed .main_menu {
+    background-color: #FFF
+}
+.header_area .navbar .nav .nav-item:hover .nav-link, .header_area .navbar .nav .nav-item.active .nav-link {
+    color: #f38520
+}
+.header_area .navbar .nav.navbar-nav.navbar-right .call-us a i {
+    color: #f38520
+}
+/** start slider ***/ 
+.banner-content h1 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: #f38520;
+    text-shadow: 2px 2px 3px #313131;
+}
+.banner-content h2 {
+    color: #000;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: #0e0d13;
+}
+
+.banner-content .main_btn {
+    -webkit-background-image: linear-gradient(#f16520, #d64a10);
+    -moz-background-image: linear-gradient(#f16520, #d64a10);
+    -o-background-image: linear-gradient(#f16520, #d64a10);
+    background-image: linear-gradient(#f16520, #d64a10);
+    border-color: #ffffff;
+    border-width: 4px;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 36px;
+    font-weight: bold;
+}
+.banner-area .owl-nav {
+    display: none
+}
+
+/*** start about ***/
+.about-area{
+    position: relative;
+}
+.about-bar{
+     width: 100%;
+    height: 20px;
+    box-shadow: 0 0 10px;
+    position: absolute;
+    -webkit-background-image: linear-gradient(#f16520, #d64a10);
+    -moz-background-image: linear-gradient(#f16520, #d64a10);
+    -o-background-image: linear-gradient(#f16520, #d64a10);
+    background-image: linear-gradient(#f16520, #d64a10);
+    top: 0;
+    left: 0;
+    
+}
+.about-area .about-content h4 {
+    font-size: 35px;
+}
+.img-styleBox .styleBox-2 span {
+    color: #f38520
+}
+.img-styleBox .styleBox-2 p {
+    color: #fff;
+    line-height: 30px;
+    font-size: 18px;
+}
+.about-area .about-content span {
+    font-size: 23px;
+    font-weight: 700;
+    color: #f38520;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+.about-area .about-content .main_btn {
+    border: 2px solid #262533;
+    padding: 6px 45px;
+    font-weight: bold
+}
+.about-area .about-content p {
+    margin-right: 38px;
+    font-size: 14px;
+    color: #262533;
+    font-weight: bold;
+}
+.about-area .about-content p i {
+    font-size: 20px;
+    color: #FFF;
+    background-color: #000;
+    padding: 6px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    margin-right: -38px;
+}
+
+/**** start models ****/
+section.models_area {
+    background: url(../img/background/cars_bg.jpg) center center;
+    background-size: cover;
+    padding: 70px 0
+}
+section.models_area h2 {
+    color: #FFF
+}
+section.models_area .single_car {
+    background-color: #fff;
+    margin-bottom: 30px;
+    position: relative;
+    padding: 20px;
+    text-align: right;
+    direction: rtl
+}
+section.models_area .single_car::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f38520;
+    transform: scale(.5);
+    transition: all .3s ease;
+    opacity: 0;
+    z-index: 0;
+}
+section.models_area .single_car:hover::after {
+    transform: scale(1);
+    opacity: 1;
+}
+section.models_area .some_info, section.models_area .image {
+    position: relative;
+    z-index: 22
+}
+section.models_area .image {
+    margin-top: 40px;
+    text-align: center
+}
+section.models_area .info_box {
+    margin-bottom: 15px
+}
+section.models_area .info_box i {
+    color: #f0c540;
+    font-size: 20px;
+    transition: all .2s;
+    font-weight: bold;
+    font-size: 18px
+}
+section.models_area .single_car:hover .info_box i {
+    color: #273F44
+}
+section.models_area .single_car:hover .some_info h4,
+section.models_area .single_car:hover .info_box span,
+section.models_area .single_car:hover .info_box i {
+    color: #FFF
+}
+section.models_area .single_car:hover .some_info p {
+    color: #e2dbdb
+}
+section.models_area .single_car .info_box span {
+    transition: all .2s;
+    font-weight: bold;
+    font-size: 12px
+}
+section.models_area .en_name {
+    background-color: #f38520;
+    color: #FFF;
+    transition: all .2s;
+    padding: 10px;
+    max-width: 90%;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px
+}
+section.models_area .single_car:hover .en_name {
+    background-color: #273F44;
+}
+
+/*** start hotels ***/
+.portfolio_area {
+    padding: 70px 0
+}
+.portfolio_area .area-heading {
+    margin-bottom: 60px
+}
+.portfolio_area .area-heading p {
+    margin-bottom: 0px;
+    color: #364a4b
+}
+.single-portfolio {
+    padding: 0;
+}
+.single-portfolio:hover {
+    padding: 0 2px 0 0;
+}
+.single-portfolio img {
+    width: 100%
+}
+.single-portfolio .short_info h4 a {
+    font-size: 13px;
+    padding: 10px 15px;
+    margin-bottom: 5px;
+    transform: rotate(0deg);
+    position: absolute;
+    top: 0;
+    left: 0px;
+    letter-spacing: normal;
+    font-family: 'Droid Arabic Kufi', sans-serif;
+    transition: all .3s;
+    width: 100%;
+    background-color: #f38520;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold
+}
+.single-portfolio:hover .short_info h4 a {
+    left: 0;
+    top: 50px;
+    transition: all .3s;
+    transform: rotate(0deg);
+    font-size: 16px;
+    width: 99%;
+    text-align: center;
+    background-color: #f9cc41;
+    color: #000
+}
+.single-portfolio .short_info p {
+    margin-bottom: 0px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    margin-top: 100px;
+    direction: rtl;
+    opacity: 0;
+    transition: all .4s;
+    transform:translateY(100%) rotate(-90deg);
+    padding: 15px;
+}
+.single-portfolio:hover .short_info p {
+    opacity: 1;
+    transform:translateY(0%) rotate(0deg);
+}
+.single-portfolio:hover .short_info:after {
+    width: 99.5%;
+    transition: all .3s;
+    background-color: #f7761f
+}
+.single-portfolio .short_info:after {
+    width: 40px;
+    background-color: #f7761f
+}
+/*** start call to action ***/
+.call_to_action {
+    padding-top: 0px;
+    background-color: #273F44;
+}
+.call_to_action_inner {
+    border: none;
+    padding: 0;
+    
+}
+.call_to_action_inner .area-heading h3 {
+    font-size: 35px;
+    color: #ffffff;
+    position: relative;
+    font-weight: 700;
+    margin-bottom: 30px
+}
+.call_to_action_inner .area-heading p {
+    font-size: 17px;
+    color: #c3c3c3;
+    font-weight: 500;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+.call_to_action_inner .main_btn_2 {
+    background-color: #000
+}
+.call_to_action_inner .main_btn_2:hover {
+    color: #f38520
+}
+
+/**** start services ****/
+.service-area {
+    background-image: url(../img/background/map_bg.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: 60%;
+    background-color: transparent;
+    padding: 60px 0 150px 0!important
+}
+.service-area .area-heading {
+    margin-bottom: 60px
+}
+.service-area .single-service {
+    direction: rtl;
+    background-color: transparent;
+    position: relative;
+    z-index: 1;
+    height: 315px;
+    border: none
+}
+.service-area .single-service:hover {
+    background: url(../img/background/serv.jpg) center center;
+    background-size: cover;
+}
+.service-area .single-service:hover::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(39, 63, 68, 0.93);
+    z-index: -1
+}
+.service-area .single-service:hover .service-content h5 {
+    color: #FFF
+}
+.service-area .single-service .service-content p {
+    color: #404040
+}
+.service-area .single-service:hover .service-content p {
+    color: #d0d0d0
+}
+.service-area .single-service .service-content h5 {
+    font-size: 24px;
+    color: #464646;
+    margin-bottom: 25px;
+}
+.service-area .single-service .service-icon img {
+    -webkit-filter: grayscale(70%);
+    filter: grayscale(70%);
+}
+/*** start clients ***/
+section.number_area .testimonial .testimonial-item {
+    padding: 0; 
+    background: #fff;
+    border: 10px solid rgba(130, 130, 130, 0.2);
+    position: relative;
+}
+section.number_area .testimonial .owl-item .icon {
+    display: block;
+    margin: auto
+}
+.testimonial .testimonial-item:after {
+    display: none
+}
+
+/*** start contact ****/
+.contact_form {
+    min-height: 580px
+}
+.contact_form .area-heading {
+    margin-bottom: 60px;
+}
+.contact_form .area-heading h2 {
+    color: #262533
+}
+.contact_form input,
+.contact_form textarea {
+    width: 100%;
+    padding: 15px 20px;
+    margin-bottom: 25px;
+    border: 0;
+    background: #f0f4f8;
+    outline: none;
+    font-size: 12px;
+    line-height: 1;
+    color: #828282;
+    border-radius: 10px;
+}
+.contact_form input[type="submit"] {
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.contact_form .button:hover {
+    background-color: #ddd;
+    color: #fff;
+    color: #000
+}
+.contact_form .box {
+    border: 3px solid #FFF;
+    width: 200px;
+    padding: 20px;
+    color: #fff;
+    position: relative;
+    background-color: #262533;
+    height: 160px;
+    margin: 60px auto 0;
+    transition: all .3s
+}
+.contact_form .box::before {
+    content: "";
+    position: absolute;
+    height: 65px;
+    width: 3px;
+    background-color: #ffffff;
+    left: 95px;
+    top: -65px;
+    
+}
+.contact_form .box i {
+    display: block;
+    font-size: 30px;
+    margin-bottom: 15px
+}
+.contact_form .box p {
+    font-size: 13px
+}
+.contact_form .box a {
+    font-size: 14px;
+    display: block;
+    color: #FFF
+}
+.contact_form .contact_map {
+    height: 250px
+}
+.video_area_inner {
+    min-height:  670px
+}
+/*** start footer ****/
+.footer-area {
+    padding-top: 0;
+    margin-top: 0
+}
+.footer-area .copy-right {
+    color: #e4e4e4
+}
+.footer-area .copy-right a {
+    background-color: #f38520;
+    padding: 2px 10px;
+    border-radius: 10px;
+    color: #FFF;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

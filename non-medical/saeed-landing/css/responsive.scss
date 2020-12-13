@@ -1,0 +1,230 @@
+@media screen and (max-width: 992px) {
+    section.services {
+        .services-content {
+            .boxes {
+                margin-top: 50px;
+            }
+        }
+    }
+
+    section.blog {
+        .blog-content {
+            .single-blog {
+                .blog-text {
+                    h2 {
+                        font-size: 18px;
+                        max-width: 100%;
+                        margin-bottom: 10px;
+                    }
+
+                    p {
+                        max-width: 100%;
+                        font-size: 13px;
+                        margin-bottom: 5px;
+                    }
+
+                    .more {
+                        a {
+                            font-size: 18px;
+                            font-weight: 700;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    section.contact {
+        .contact-form {
+            max-width: 100%;
+            margin-left: 0;
+        }
+
+        .info {
+            height: auto;
+            padding: 35px;
+            margin-top: 15px;
+
+            .info-content {
+                padding: 0;
+
+                &:first-child {
+                    padding: 0;
+                    margin-bottom: 35px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    section.about {
+        .about-content {
+            .top-part {
+                padding: 40px;
+
+                .part {
+                    margin-bottom: 20px;
+                }
+            }
+
+            .bottom-part {
+                .desc {
+                    p {
+                        padding: 0 20px 0 25px;
+                    }
+                }
+
+                .image {
+                    margin-top: 40px;
+                }
+            }
+        }
+    }
+
+    section.video {
+        padding: 90px 0;
+    }
+
+    section.services {
+        .services-content {
+            .boxes {
+                margin-top: 40px;
+            }
+        }
+    }
+
+    section.blog {
+        .blog-content {
+            .single-blog {
+                .blog-text {
+                    margin-top: 25px;
+
+                    h2 {
+                        font-size: 22px;
+                        max-width: 100%;
+                        margin-bottom: 15px;
+                    }
+
+                    p {
+                        font-size: 16px;
+                        margin-bottom: 10px;
+                    }
+
+                    .more {
+                        a {
+                            font-size: 20px;
+                            font-weight: 700;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .wrapper {
+        section.hero {
+            .text-side {
+                padding-top: 50px;
+
+                h1 {
+                    font-size: 80px;
+
+                    .diff-word {
+                        font-size: 120px;
+                        font-weight: 800;
+                    }
+                }
+
+                p {
+                    padding: 0 25px 0 20px;
+                }
+            }
+
+            .img-side {
+                margin-top: 30px;
+            }
+        }
+
+        section.about {
+            .about-content {
+                .top-part {
+                    padding: 40px;
+
+                    .part {
+                        margin-bottom: 20px;
+                    }
+                }
+
+                .bottom-part {
+                    .desc {
+                        p {
+                            padding: 0 20px 0 25px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    section.video {
+        .content-vid {
+            h3 {
+                font-size: 28px;
+            }
+
+            p {
+                padding: 0 20px 0 25px;
+                line-height: 1.7;
+            }
+
+        }
+    }
+
+    section.services {
+        .services-content {
+            .ser-des {
+                h2 {
+                    font-size: 26px;
+                }
+            }
+
+            .ser-des {
+                p {
+                    padding: 0 20px 0 25px;
+                    line-height: 1.7;
+                }
+            }
+        }
+    }
+
+    section.contact {
+        .info {
+            padding: 35px 15px;
+
+            .info-content {
+                h2 {
+                    font-size: 18px;
+                }
+
+                .box {
+                    p {
+                        padding-right: 30px;
+                        font-size: 14px;
+
+                        i {
+                            height: 25px;
+                            width: 25px;
+                            line-height: 25px;
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

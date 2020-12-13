@@ -1,0 +1,242 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (max-width: 992px) {
+nav.navbar.bootsnav .navbar-brand {
+    display: inline-block;
+    float: left!important;
+    margin: 0 !important;
+}
+    
+nav.navbar.bootsnav .navbar-toggle {
+    float: right;
+    margin-right: 0px;
+}
+nav.navbar.bootsnav.no-full .navbar-collapse {
+    height: auto;
+    overflow-y: hidden!important;
+}
+nav.navbar.bootsnav .navbar-nav > li {
+    float: none;
+    text-align: right;
+}
+nav.navbar.bootsnav.no-background.white ul.nav > li > a {
+    color: #060606;
+}
+}
+
+
+/* Portrait tablets and small desktops */
+@media (max-width: 991px) {
+
+    .sm-text-center{
+        text-align: center !important;
+    }
+    .sm-pull-none{
+        float: none !important;
+    }
+    .sm-m-top-10{
+        margin-top:10px;
+    }
+    .sm-m-top-20{
+        margin-top:20px;
+    }
+    .sm-m-top-30{
+        margin-top:30px;
+    }
+    .sm-m-top-40{
+        margin-top:40px;
+    }
+    .sm-m-top-50{
+        margin-top:50px;
+    }
+    .item_img i{
+        right:0%;
+    }
+
+    .divider_horizontal,
+    .divider_vertical{
+        display: none;
+    }
+    .main-portfolio .grid-item {
+        position: relative;
+        margin: 5px;
+        width:350px;
+        overflow: hidden;
+    } 
+    .at_small {
+        position: absolute;
+        top: 0;
+        padding-top: 30px;
+        padding-left: 10%;
+    }
+    .at_row {
+        position: relative
+    }
+    .image img {
+        opacity: .2
+    }
+    .contact-form iframe {
+        margin-bottom: 30px
+}
+    .footer-right-contact {
+        height: 380px
+    } 
+    .main_features.roomy-70 {
+        padding-top: 30px
+    }
+}
+
+
+
+/* Landscape phones and portrait tablets */
+@media  (max-width: 768px) {
+    h2{
+        font-size:2rem;
+    }
+    p{
+        font-size:90%;
+        line-height: 2rem;
+    }
+    .xs-pull-none{
+        float: none !important;
+    }
+    .xs-text-center{
+        text-align: center !important;
+    }
+    .xs-m-top-10{
+        margin-top:10px;
+    }
+    .xs-m-top-30{
+        margin-top:30px;
+    }
+    .xs-m-bottom-10{
+        margin-bottom:10px;
+    }
+    .xs-m-bottom-20{
+        margin-bottom:20px;
+    }
+
+    .main_product .carousel-control{
+        display: none;
+    }
+
+    .home_text h1 {
+        font-size: 35px
+    }
+    .home_text h2 {
+        font-size: 16px;
+        line-height: 2;
+        max-width: 80%;
+        margin: auto;
+}
+    .home {
+        padding-top: 200px
+    }
+    .choose_mac .slick-arrow, .service_slid .slick-arrow {
+        top: 47%
+    }
+    .service_slid .service_slid_text h5 {
+        font-size: 30px;
+} 
+    .service_slid .service_slid_text span.icon {
+        font-size: 6rem;
+}
+    .service_slid_text p {
+        width: 90%;
+        font-size: 11px;
+        margin-top: 40px;
+}
+    .footer-right-contact {
+        margin-top: 30px;
+        height: auto
+    }
+}
+
+
+
+
+
+/* Landscape phones and smaller */
+@media (max-width: 530px) {
+    .home_text h1 {
+        font-size: 27px;
+}
+    .head_title h2 {
+        font-size: 30px
+    }
+    .service_slid .slick-arrow {
+        top: 88%
+}
+    .about .head_title h2 {
+        border-left: none;
+        width: 100%
+    }
+}
+
+@media (max-width: 400px) {
+    .home_text h1 {
+    font-size: 25px;
+        line-height: 2
+} 
+    .home_text h2 {
+        font-size: 16px;
+        line-height: 2;
+        max-width: 98%;
+        margin: auto;
+}
+    .mouse-scroll {
+        left: 45%;
+    }
+    .main_about p {
+        font-size: 15px;
+        line-height: 1.7;
+}
+    .btn.m-top-30 {
+        margin-top: 10px
+    }
+    .about .head_title h2 {
+        width: 100%
+    }
+    .service_slid .slick-arrow {
+        border: 1px solid #e8a907;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 10px;
+        color: #e8a907;
+}
+    .footer-right-contact .single-contact {
+        margin: 10px 20px;
+        padding: 0;
+}
+    
+    .footer-right-contact .contact-icon {
+        background: #caa847;
+        color: #fff;
+        border-radius: 50%;
+        font-size: 9px;
+        height: 20px;
+        right: -23px;
+        padding-top: 8px;
+        position: absolute;
+        text-align: center;
+        top: 42%;
+        /* line-height: 30px; */
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        width: 20px;
+}
+}
+@media (max-width: 350px) {
+    .main_about p {
+        font-size: 14px;
+        line-height: 1.6;
+}
+
+}
+
+
+

@@ -1,0 +1,244 @@
+/*================ Normal desktop :992px.==================== */
+@media (max-width: 1200px) {
+    .about-right {
+        padding: 0px 0 0px 30px;
+}
+    .about-right h2 {
+        margin-bottom: 10px
+    }
+    .about-right p {
+        line-height: 2;
+        font-size: 15px
+}
+}
+
+@media (min-width: 992px) and (max-width: 1169px) {
+
+    .about-left li{
+        width: 100%;
+        display: block
+    }
+
+}
+/*================ Tablet desktop :768px.==================*/
+@media (max-width: 991px) {	
+    .fade {
+         box-shadow: none;
+        background-color: transparent;
+        display: none
+    }
+    .works p {
+        font-size: 11px;
+}
+    .about-right {
+        padding: 40px 0 0px 30px;
+}
+    .about-left img {
+        top: 0px;
+        right: 0px;
+}
+    .content .box {
+        max-height: 200px;
+    }
+    nav.navbar .nav-item .nav-link {
+        color: #fff;
+}
+    .navbar-dark .navbar-nav .nav-link.active {
+        color: #FFF
+    }
+}
+    
+@media (min-width: 768px) and (max-width: 991px) {	
+
+    .navbar-collapse{
+        background-color: #111;
+        text-align: center;
+    }
+    nav.navbar .nav-item .nav-link::before{
+        display: none
+    }
+    nav.navbar .nav-item:first-child{
+        padding-left: 13px;
+        margin-top: 15px
+    }
+    nav.navbar .nav-item:last-child{
+        padding-right: 13px;
+        margin-bottom: 15px
+    }
+    nav.navbar .nav-item .nav-link{
+        padding: 8px 10px
+    }
+    .banner-welcome > h3{
+        font-size: 32px;
+        font-weight: 600
+    }
+    .about-left li{
+        display: block;
+        width: 100%
+    }
+    .single-service{
+        padding: 20px;
+    }
+    .single-service > h4{
+        font-size: 16px
+    }
+    nav.fixed-top .nav-item .nav-link{
+        color: #fff !important
+    }
+
+}
+/*================== small mobile :320px. ===================*/
+@media (max-width: 767px) {		
+	
+    .navbar-collapse {
+        background-color: #111;
+        text-align: center;
+    }
+    nav.navbar .nav-item .nav-link::before{
+        display: none
+    }
+    nav.navbar .nav-item:first-child{
+        padding-left: 13px;
+        margin-top: 15px
+    }
+    nav.navbar .nav-item:last-child{
+        padding-right: 13px;
+        margin-bottom: 15px
+    }
+    nav.navbar .nav-item .nav-link{
+        padding: 8px 10px
+    }
+    .banner canvas {
+        display: none
+    }
+    .banner-welcome > h3{
+        font-size: 30px;
+        font-weight: 600
+    }
+    .caption-inner span{
+        font-size: 18px
+    }
+    .about-left li{
+        width: 100%;
+        display: block
+    }
+    .skills-prog.half{
+        margin-top: 50px
+    }
+    .site-heading > h2{
+        font-size: 28px
+    }
+    .site-heading > h2::before{
+        display: none
+    }
+    .site-heading > h2::after{
+        display: none
+    }
+    .portfolio-filter ul li{
+        display: block;
+        margin-bottom: 2px
+    }
+    .hire-box > h2{
+        font-size: 26px
+    }
+    nav.fixed-top .nav-item .nav-link{
+        color:#fff !important
+    }
+    .works p {
+        line-height: 2;
+        font-size: 14px;
+}
+    .works {
+        border-right: 0;
+        border-left: 0
+    }
+    .works-diff {
+        border-bottom: 0
+    }
+    .if-2 {
+        padding-top: 50px
+    }
+    .content .box {
+        margin-bottom: 20px;
+        height: 180px
+    }
+    .fabon-contact-area iframe {
+        margin-top: 30px;
+        height: 300px!important
+    }   
+}
+/* ======================Large Mobile :480px.================== */
+@media only screen and (min-width: 480px) and (max-width: 767px) {	
+
+    .navbar-collapse {
+        background-color: #111;
+        text-align: center;
+    }
+    nav.navbar .nav-item .nav-link::before{
+        display: none
+    }
+    nav.navbar .nav-item:first-child{
+        padding-left: 13px;
+        margin-top: 15px
+    }
+    nav.navbar .nav-item:last-child{
+        padding-right: 13px;
+        margin-bottom: 15px
+    }
+    nav.navbar .nav-item .nav-link{
+        padding: 8px 10px
+    }
+    .banner-welcome > h3{
+        font-size: 24px;
+        font-weight: 600
+    }
+    .caption-inner span{
+        font-size: 18px
+    }
+    .about-left li{
+        width: 100%;
+        display: block
+    }
+    .skills-prog.half{
+        margin-top: 50px
+    }
+    .site-heading > h2{
+        font-size: 28px
+    }
+    .site-heading > h2::before{
+        display: none
+    }
+    .site-heading > h2::after{
+        display: none
+    }
+    .portfolio-filter ul li{
+        display: block;
+        margin-bottom: 2px
+    }
+    .hire-box > h2{
+        font-size: 26px
+    }
+    nav.fixed-top .nav-item .nav-link{
+        color:#fff !important
+    }
+
+}
+@media (max-width:520px) {
+    .banner-welcome> h2 {
+        font-size: 42px;
+}
+        
+    .ah-headline .element {
+        font-size: 20px
+    }
+}
+
+@media (max-width:400px) {
+    .banner-welcome> h2 {
+        font-size: 33px;
+}
+    .banner-welcome > h3 {
+        font-size: 22px;
+}
+  
+}

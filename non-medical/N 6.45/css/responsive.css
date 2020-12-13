@@ -1,0 +1,76 @@
+@media (max-width:1200px) {
+    section.welcome .speach {
+        height: 100%
+    }
+}
+
+@media (max-width:991px) {
+    section.welcome .image img {
+        display: none
+    }
+    section.about .item {
+        background-color: rgba(250, 110, 79, 0.8);
+        padding: 20px
+    }
+    section.about .item .social img {
+        margin-top: -100px
+    }
+    section.about .over.lay1 {
+        display: none
+    }
+    section.about .over.lay2 {
+        display: none
+    }
+    section.about .container {
+        max-width: 650px;
+    }
+    .navbar-nav {
+        background-color: rgba(0,0,0,.7);
+        border-radius: 0 0 10px 10px;
+    }
+    section.services .boxes .box p {
+        height: auto;
+        text-align: center;
+        font-size: 14px;
+    }
+    section.welcome {
+        margin-bottom: 50px
+    }
+}
+
+@media (max-width:767px) {
+    section.contact .title h2::before {
+        display: none
+    }
+    section.contact .title h2 {
+        background-color: rgb(250, 110, 79);
+        color: #FFF;
+        text-align: center
+    }
+    section.welcome h1 {
+        font-size: 70px
+    }
+    section.about .item .social p {
+        max-width: 90%
+    }
+    section.about .item .social img {
+        display: none
+    }
+}
+
+
+@media (max-width:500px) {
+    section.hero .heading h1 {
+        font-size: 40px;
+        justify-content: center;
+        padding-left: 0
+    }
+    section.contact .title h2 {
+        font-size: 50px
+    }
+    section.contact .items .item .write h4 {
+        font-size: 20px
+    }
+}
+
+

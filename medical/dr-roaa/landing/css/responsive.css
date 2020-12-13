@@ -1,0 +1,159 @@
+@media (max-width:991px) {
+    .navbar.is-fixed .collapse .nav-link:hover {
+        color: rgb(255, 255, 255);
+}
+    .navbar-nav {
+        background-color: rgb(51, 50, 50);
+        width: 100%;
+        margin-top: 25px;
+}
+    section.about {
+        overflow: hidden;
+        position: relative
+    }
+    section.about .absol {
+        position: absolute;
+        
+    }
+    section.about .house img {
+        opacity: .2
+    }
+    section.about .pt {
+        padding-top: 0px
+    }
+    .new_sfb {
+        font-size: 22px!important;
+        margin-top: 10px!important;
+        margin-bottom: 10px!important;
+    }
+    .m_md {
+        text-align: right;
+        direction: rtl
+    }
+    .left-s-3 {
+        margin-right: 0;
+        margin-left: 20px
+    }
+    section.about .title {
+        margin-bottom: 40px
+    }
+    section.about .item {
+        height: auto
+    }
+    section.info .content .item p a {
+        font-size: 15px;
+}
+    .doctor {
+    font-size: 60px!important
+} 
+    .btn_new {
+        top:470px!important;
+    }
+    section.call img {
+        
+        width: 48%;
+        opacity: 0.3;
+}
+    section.services .col_mg {
+        margin: 20px auto;
+}
+}
+
+
+
+@media (max-width:767px) {
+    .start {
+        font-size: 45px!important;
+        line-height: 1.8!important;
+    }
+    .navbar-toggler {
+        padding: 4px 8px;
+    }
+    .tparrows {
+        display: none
+    }
+    .new_sfb {
+        font-size: 20px!important;
+        margin-top: 10px!important;
+        margin-bottom: 10px!important;
+    }
+    section.info .content {
+        background-color: transparent
+    }
+    section.info .content .item {
+        background-color: #1d7781;
+    }
+    section.info .content .item p {
+        opacity: 1;
+        transform: rotateX(0deg);
+        box-shadow: 0px 40px 35px -45px #000000;
+        list-style: none;
+        position: relative
+}
+    section.info {
+        padding: 50px 0 0 0;
+}
+    section.contact .map {
+        margin-bottom: 30px
+}
+    section.info .content .item p {
+        position: relative;
+        height: auto;
+        width: 100%;
+        padding: 20px 0;
+        margin-top: 10px
+}
+    .btn_new {
+        top: 460px!important;
+        
+    }
+    .doctor {
+        top: 230px!important;
+    }
+    section.call img {
+        width: 70%;
+}
+}
+
+@media (max-width:600px) {
+    .new_sfb {
+        font-size: 20px!important;
+        margin-top: 10px!important;
+        margin-bottom: 20px!important;
+        white-space: normal!important;
+        line-height: 1.8!important;
+        text-align: center!important
+            
+    }
+    .btn_new {
+        top:450px!important;
+        
+    }
+    section.call img {
+        opacity: 0.4;
+}
+    section.call img {
+        width: 90%;
+        opacity: .2
+}
+}
+
+@media (max-width:500px) {
+    .doctor {
+        font-size: 40px!important;
+    }
+    .new_sfb {
+        max-width: 100%!important
+    }
+}
+
+
+@media (max-width:400px) {
+    .doctor {
+        font-size: 33px!important;
+    }
+}
+
+@media (max-width:350px) {
+    
+}

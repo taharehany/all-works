@@ -1,0 +1,73 @@
+@media (max-width: 767px){
+    .doctors-page .team-info ul {
+        height: auto;
+    }
+    .lgx-footer-area .lgx-footer-single {
+        text-align: right;
+    }
+    .lgx-footer-area {
+        padding: 1rem 0 0;
+    }
+    .lgx-footer-area .lgx-footer-single {
+        margin-bottom: 3rem;
+    }
+    .lgx-banner-parallax {
+        background-size: 100%;
+    }
+    .lgx-banner-info .pretitle {
+        padding-right: 0;
+        color: rgb(78, 78, 78)
+    }
+    .lgx-banner-info .pretitle:after {
+        display: none
+    }
+    #lgx-parallax-banner .lgx-section .lgx-item-parallax-banner .banner-content .lgx-hover-link .lgx-vertical {
+        padding-top: 60px;
+    }
+    .about-page .lgx-about-content .text {
+        font-size: 15px;
+        line-height: 1.5;
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 500px){
+    .lgx-appoinment .lgx-box h2 {
+        font-size: 24px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .lgx-appoinment .lgx-box i {
+        font-size: 35px;
+        height: 60px;
+        width: 60px;
+        line-height: 60px;
+    }
+    .about .lgx-facilities-area .lgx-facilities-list .single-list i {
+        font-size: 25px
+    }
+    .about .lgx-heading {
+        margin-bottom: 1.2rem;
+    }
+    .about .lgx-heading .heading {
+        font-size: 2.2rem;
+    }
+    .lgx-services .lgx-heading .heading {
+        font-size: 3.2rem;
+    }
+    .lgx-footer-single ul li {
+        line-height: 1.5;
+    }
+    .lgx-footer-single .footer-contact {
+        margin-top: 0px;
+        font-size: 11px;
+    }
+    .lgx-backtop { 
+        width: 40px;
+        height: 40px;
+        right: 15px;
+    }
+    .lgx-backtop::after { 
+        line-height: 40px
+    }
+}

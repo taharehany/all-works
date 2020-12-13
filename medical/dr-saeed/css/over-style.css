@@ -1,0 +1,164 @@
+.navbar-expand-lg .navbar-nav {
+    flex-direction: row-reverse
+}
+.main_menu .navbar-brand {
+    font-weight: bold;
+}
+.main_menu .btn_2 {
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+.main_menu .main-menu-item ul li .nav-link {
+    font-weight: bold
+}
+.banner_part {
+    height: 830px
+}
+.banner_part .banner_text h1 {
+    font-size: 25px;
+    line-height: 1.7;
+    color: #6390c3;
+}
+.banner_part .banner_text .banner_text_iner {
+    padding-top: 0;
+    direction: rtl
+}
+.banner_part .banner_text p {
+    padding-right: 0
+}
+.banner_part .banner_text p {
+    font-size: 17px;
+    color: #6390c3;
+    font-weight: 700;
+}
+
+.banner_part .banner_text h5 {
+    font-size: 49px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 25px;
+    font-family: 'Droid Arabic Kufi', sans-serif;
+    color: #6390c3;
+}
+
+/*** start about ***/
+.about_us {
+    background-color: rgba(212, 212, 212, 0.07);
+    padding: 50px 0;
+    background-position: left center;
+    margin: 30px 0
+} 
+.about_us .about_us_text p {
+    margin-bottom: 15px;
+    margin-right: 25px;
+}
+.about_us .about_us_text p i {
+    margin-right: -25px;
+    font-weight: bold;
+    color: #0472fa;
+    border: 1px solid #0472fb;
+    border-radius: 50%;
+    padding: 4px;
+    font-size: 13px;
+}
+
+
+/*** start services ***/
+
+.feature_part .single_feature_part h4 {
+    left: auto;
+    right: 75px;
+} 
+
+.feature_part .single_feature_part p {
+    color: #4e4e4e;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.our_depertment .single_our_depertment {
+    border: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+.our_depertment .single_our_depertment:hover {
+    background-color: transparent;
+    border: none;
+}
+.single_our_depertment img {
+    border-radius: 10px;
+}
+
+.our_depertment:after {
+    background-color: rgba(0, 0, 0, 0.8)
+}
+
+
+
+.regervation_part .reservation_img .reservation_img_iner {
+    position: absolute;
+    bottom: -370px;
+    left: 0;
+}
+.doctor_part {
+    padding: 0 0 50px 0;
+    position: relative;
+    z-index: 2;
+    overflow: visible
+}
+.doctor_part .single_blog_text {
+    background-color: transparent;
+    border: none;
+    text-align: center
+}
+.single_blog_item {
+    background-color: transparent
+}
+.single_blog_img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+    margin-top: -50px;
+    background-color: #408cfe;
+    text-align: center;
+}
+.doctor_part .single_blog_item h3 {
+    transition: all .4s
+}
+.doctor_part .single_blog_item:hover h3 {
+    color: #408cfe !important;
+} 
+.doctor_part .single_blog_text {
+    border: 2px solid #408cfe!important;
+    margin-top: 20px;
+    padding-bottom: 20px
+}
+.single_blog_img i {
+    line-height: 100px;
+    font-size: 35px;
+    color: #FFF
+}
+.doctor_part .single_blog_item p a {
+    color: #888
+}
+.regervation_part {
+    padding: 50px;
+    overflow: hidden;
+}
+.regervation_part .reservation_img .reservation_img_iner {
+    bottom: -280px;
+    width: 60%;
+}
+
+.regervation_part_iner button {
+    border: none
+}
+.footer-area p {
+    color: #FFF
+}
+.footer-area .copyright_part a {
+    color: #408cfe
+}

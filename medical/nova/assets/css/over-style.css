@@ -1,0 +1,303 @@
+@import url(https://fonts.googleapis.com/css?family=Almarai&display=swap);
+
+body {
+    font-family: Almarai,sans-serif;
+}
+.lgx-btn, .lgx-submit, .wpcf7-submit, button {
+    -webkit-box-shadow: 0 4px 10px rgba(231,96,30,.5);
+    -moz-box-shadow: 0 4px 10px rgba(231,96,30,.5);
+    box-shadow: 0 4px 10px rgb(85, 195, 239);
+}
+.lgx-header .lgx-nav-right {
+    overflow: visible
+}
+/* nav */
+.navbar-nav>li {
+    text-align: right
+}
+.lgx-header .lgx-navbar .lgx-logo a img {
+    margin-top: 0
+}
+@media (min-width: 768px){
+    .navbar-nav>li {
+        float: right;
+    }
+}
+.lgx-btn, .lgx-submit, .wpcf7-submit, button {
+    color: #fff;
+    background: #42bded;
+    background: -webkit-linear-gradient(to left,.lgx-btn:hover, .lgx-submit:hover, .wpcf7-submit:hover, button:hover,#42bded);
+    background: linear-gradient(to left,.lgx-btn:hover, .lgx-submit:hover, .wpcf7-submit:hover, button:hover,#42bded);
+    -moz-transition-duration: .3s;
+    -webkit-transition-duration: .3s;
+    -o-transition-duration: .3s;
+    transition-duration: .3s;
+    -moz-box-shadow: 0 8px 15px rgba(0,0,0,.1);
+    -webkit-box-shadow: 0 8px 15px rgba(0,0,0,.1);
+    box-shadow: 0 8px 15px rgba(0,0,0,.1);
+}
+/*.lgx-header .lgx-navbar .lgx-logo a img {
+    margin-top: 0;
+    background-color: #ffffffb5;
+    border-radius: 44px;
+}*/
+/* nav */
+
+/* hero */
+.lgx-banner-parallax {
+    background: url(../img/bannar-copy2.jpg) top center no-repeat;
+}
+.banner-content .lgx-banner-info {
+    text-align: right
+}
+.lgx-banner-info .pretitle {
+    padding-right: 60px;
+    padding-left: 0
+}
+.lgx-banner-info .pretitle:after {
+    right: 0;
+    left: auto
+}
+.lgx-banner-info .title {
+    line-height: 8.5rem;
+}
+
+/* hero */
+
+/* intro */
+.lgx-appoinment .lgx-box {
+    margin-bottom: 15px
+}
+.lgx-appoinment .lgx-box i {
+    font-size: 45px;
+    color: #55c3ef;
+    border: 1px solid;
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    text-align: center;
+    line-height: 90px;
+}
+.lgx-appoinment .lgx-box h2 {
+    font-size: 24px;
+    margin-bottom: 20px
+}
+/* intro */
+
+/* about */
+@media (max-width: 767px){
+    .lgx-facilities {
+        background: #2375A5;
+    }
+}
+
+.lgx-heading-white .pretitle {
+    color: rgba(255, 255, 255, 0.82);
+}
+.about .lgx-heading{
+    text-align: right
+        
+}
+.lgx-facilities-area .lgx-facilities-list .single-list i {
+    max-width: 300px;
+    float: right;
+    margin-left: 1.6rem;
+    margin-right: 0;
+    font-size: 35px;
+}
+/* about */
+
+/* data */
+.lgx-milestone .lgx-counter-area i {
+    float: none;
+    max-width: 70px;
+    margin-right: 0;
+    opacity: .5;
+    color: #2375a5;
+    font-size: 6rem;
+    line-height: normal
+}
+.lgx-milestone .lgx-counter-area {
+    text-align: center;
+    margin-bottom: 20px
+}
+.lgx-milestone .lgx-counter-area .counter-text .lgx-counter {
+    display: inline-block;
+} 
+.lgx-milestone .lgx-counter-area .counter-text .plus {
+    font-size: 39px
+} 
+/* data */
+
+/* services */
+.lgx-service-area-similar .lgx-single-service figure figcaption .service-info img {
+    left: 0;
+    right: auto
+}
+.lgx-service-area-similar .lgx-single-service figure figcaption .service-info p {
+    line-height: normal;
+    font-size: 14px
+}
+.lgx-service-area-similar .lgx-single-service {
+    overflow: hidden;
+    display: block;
+    margin-bottom: 2.6rem;
+    width: 100%;
+    float: none;
+    padding-left: 0;
+    padding-right: 0;
+}
+/* services */
+
+/* doctors */
+.lgx-doctors .lgx-heading {
+    text-align: right;
+}
+/* doctors */
+
+/* testimonial */
+.lgx-testimonial .lgx-heading {
+    text-align: right
+}
+blockquote.lgx-testi-single {
+    padding-right: 11rem;
+    padding-left: 0;
+    text-align: right;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3rem;
+    margin: 0;
+}
+blockquote.lgx-testi-single:before {
+    content: "";
+    background: url(../img/quote.png) center left no-repeat;
+    position: absolute;
+    right: -6rem;
+    left: auto;
+    top: -1px;
+    width: 115px;
+    height: 81px;
+    text-align: center;
+    margin: 0 auto;
+    z-index: 0;
+    opacity: 1;
+}
+.lgx-testi-single .author {
+    float: left;
+}
+/* testimonial */
+
+/* footer */
+.lgx-footer-single {
+    text-align: right
+}
+.lgx-footer-single .footer-contact {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: normal;
+    color: #2f3945;
+    font-weight: 700;
+} 
+.lgx-footer-single ul {
+    padding: 0
+}
+.lgx-footer-single ul li a {
+    position: relative;
+    padding-right: 25px
+}
+.contact-links li a:before {
+    display: none
+}
+.lgx-footer-single ul li a:before {
+    position: absolute;
+    content: '\f22b';
+    right: 0px;
+    font-size: 14px;
+    font-weight: 800;
+    font-family: "Font Awesome 5 Free";
+    transform: rotate(180deg);
+}
+.lgx-footer-bottom p a, .lgx-footer-bottom p span {
+    color: #000
+}
+.lgx-footer-area {
+    display: block
+}
+.lgx-footer-bottom {
+    padding-bottom: 2rem;
+}
+/* footer */
+
+/*------------------------------------------------------------------*/
+
+/* pages style */
+
+/* about page */
+.lgx-banner-inner .lgx-heading-area {
+    text-align: center
+}
+.lgx-banner-inner .lgx-heading {
+    text-align: center
+}
+.lgx-banner-inner .breadcrumb li a i {
+    margin-right: 0;
+    margin-left: .5rem;
+}
+/* about page */
+
+/* about page */
+.about-page .lgx-about .lgx-heading {
+    text-align: right
+}
+.about-page .lgx-about-content, .about-page .lgx-about-content .section-btn-area, .about-page .lgx-about-content-area-left .lgx-about-content {
+    text-align: right
+}
+.about-page .lgx-about-content .text {
+    font-size: 20px;
+    line-height: 1.5;
+    padding-left: 100px;
+}
+/* about page */
+
+/* doctors page */
+.doctors-page .lgx-single-team figure figcaption .team-info {
+    text-align: right
+}
+.doctors-page .team-info ul {
+    padding-right: 20px;
+    height: 200px;
+}
+.doctors-page .team-info ul li {
+    font-size: 15px;
+    line-height: 1.6;
+}
+/* doctors page */
+
+/* contact page */
+.form-control, .wpcf7-form-control, input, textarea {
+    text-align: right
+}
+.lgx-contact-form .field {
+    margin-bottom: 10px
+}
+.lgx-contact-info ul {
+    padding: 0;
+}
+.lgx-contact-info ul li {
+    margin-bottom: 15px
+}
+.lgx-contact-info ul li i {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+    border: 1px solid #55c3ef;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #55c3ef;
+    margin-left: 5px
+}
+.lgx-contact-info ul li a {
+    color: #000
+}
+/* contact page */

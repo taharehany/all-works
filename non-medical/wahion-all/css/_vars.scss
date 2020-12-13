@@ -1,0 +1,20 @@
+/**** sizes ****/
+$main_width: 100%;
+
+/**** colors ****/
+$main_color: #026965;
+$sec_color: #00312B;
+
+/**** padding ****/
+$padding: 80px 0;
+
+/**** fonts ****/
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton|Poppins&display=swap');
+$main_font: 'Poppins', sans-serif;
+$sec_font: 'Anton', sans-serif;
+
+/*** transitiont ***/
+$trans_3: all 0.3s;
+$trans_4: all 0.4s;
+$trans_5: all 0.5s;

@@ -1,0 +1,625 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+body {
+    height: 3000px;
+    font-family: 'Droid Arabic Kufi', sans-serif;
+}
+/*** start global ***/
+.btn.focus, .btn:focus{
+    outline: none;
+    box-shadow: none
+}
+button:focus {
+    outline: none
+}
+.title {
+    margin-bottom: 80px;
+}
+.title h2 {
+    color: #555;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold
+}
+.title p.line {
+    width: 17%;
+    margin: auto;
+    height: 4px;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title p.line .line-in {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 30%;
+    background-color: #01c8b1;
+    transition: all .3s
+}
+.title:hover p.line .line-in {
+    width: 50%;
+} 
+.title p.line .line-in .circle {
+    width: 15px;
+    height: 15px;
+    background-color: #FFF;
+    border-radius: 50%;
+    border: 2px solid #01c8b1;
+}
+
+/**** Revolution ****/
+.doctor {
+    font-size: 60px!important;
+    font-size: 45px!important;
+        line-height: 1.8!important;
+}
+
+.new_sfb {
+    font-size: 30px!important;
+    max-width: 80%!important;
+    line-height: 2!important;
+    white-space: normal!important;
+    text-align: center
+}
+.btn_new {
+    font-size: 30px
+}
+.tp-banner-container {
+    position: relative;
+    width: 100%;
+    padding: 0;
+}
+.tp-banner {
+    display: flex;
+    align-items: center
+}
+.tp-banner > ul {
+    padding: 0;
+    list-style: none;
+}
+.tp-banner-fullscreen-container {
+    position: relative;
+    width: 100%;
+    padding: 0;
+}
+.rev-heading {
+    color: #fff;
+    font-weight: 600;
+    background-color: transparent;
+    padding: 0 20px;
+    border-radius: 20px 20px 5px 5px
+}
+.btn-dark-solid {
+    color: #fff;
+    background: #222;
+    padding: 10px 20px
+}
+.btn-dark-solid:hover {
+    background: #04bbf5;
+}
+
+.btn-dark-border {
+    color: #f3f3f3;
+    border: 1px solid #222;
+    background: rgba(255,255,255,.2);
+    padding: 10px 20px;
+    font-weight: 500
+}
+.btn-dark-border:hover {
+    color: #fff;
+    border: 1px solid #222;
+    background: #222;
+}
+.btn {
+    display: inline-block;
+    border-radius: 0;
+}
+.rev-subheading { 
+    color: #FFF;
+    font-size: 20px;
+}
+.sfb {
+    color: #fff;
+    font-weight: 600
+}
+.rev-desc {
+    color: #454545;
+    font-size: 16px;
+}
+.rev-white {
+    color: #fff;
+}
+/********/
+.navbar {
+    background: #FFF;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: unset;
+    transition: all .5s;
+    z-index: 999;
+    text-align: right;
+    border-bottom: 1px solid rgba(238, 238, 238, 0.27)
+}
+.navbar-brand {
+    font-weight: bold
+}
+.navbar-brand .diff_color {
+    color: #01c8b1
+}
+.collapse {
+    justify-content: flex-end
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #666;
+    font-weight: 600;
+    padding-right: 15px;
+    transition: all .4s
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #666;
+}
+@media (min-width: 992px) {
+.navbar-expand-lg .navbar-nav {
+    flex-direction: row-reverse
+}
+}
+.navbar-brand .img1 {
+    display: none
+}
+.navbar-brand .img2 {
+    display: block
+}
+.navbar.is-fixed .navbar-brand .img1 {
+    display: block
+}
+.navbar.is-fixed .navbar-brand .img2 {
+    display: none
+}
+.navbar.is-fixed .collapse .nav-link {
+    color: rgb(148, 148, 148)
+}
+.navbar.is-fixed .collapse .nav-link:hover {
+    color: #666
+}
+.navbar.is-fixed {
+    background: #FFF;
+    box-shadow: 1px 1px #d4d4d4;
+    border-bottom: 1px solid transparent
+}
+.navbar.is-fixed.is-fixed .navbar-brand  {
+    color: #000
+}
+.navbar-light .navbar-toggler {
+    background-color: #ffffffc7;
+}
+.navbar-light .navbar-brand {
+    color: #666
+}
+.navbar-light .navbar-brand img {
+    width: 70%;
+    float: left;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #01c8b1
+}
+.navbar-light .navbar-nav .nav-link:focus {
+    color: #01c8b1
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #666;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: inherit
+} 
+/***** start about ****/
+section.about {
+    padding: 50px 0 0;
+    background-color: rgba(238,238,238,.1)
+}
+section.about .pt {
+    padding: 120px 0 0 0;
+}
+section.about .item {
+    height: 154px;
+    position: relative;
+    background-color: transparent;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    transition: all 1s;
+}
+section.about .house img {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+section.about .right-s {
+    width: 90%;
+    display: inline-block;
+}
+section.about .right-s h3 {
+    font-size: 17px;
+    color: #01c8b1;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+section.about .right-s p {
+    font-size: 14px;
+    font-weight: 500
+}
+section.about .left-s {
+    width: 80px;
+    height: 65px;
+    display: inline-block;
+    background-color: #FFF;
+    border: 2px solid #01c8b1;
+    text-align: center;
+    transition: all .3s
+}
+section.about .left-s:hover {
+    background-color: #01c8b1;
+    border: 2px solid transparent;
+} 
+section.about .left-s:hover i {
+    color: #fff;
+}
+section.about .left-s i {
+    font-size: 40px;
+    color: #01c8b1;
+    line-height: 65px
+}
+.left-s-2 {
+    margin-left: 20px
+}
+.left-s-3 {
+    margin-right: 20px
+}
+section.about .content .left-s:hover {
+    background-color: #FFF
+}
+
+/**** start services ****/
+section.services {
+    padding: 60px 0 
+}
+section.services .box {
+    position: relative;
+    height: 290px;
+    transition: all .5s;
+    overflow: hidden;
+    border: 5px solid rgba(1, 200, 177, 0.48)
+        
+}
+section.services .col_mg {
+    margin: 40px auto
+}
+section.services .box:hover {
+    border-radius: 0
+}
+.box1,.box2,.box3,.box4,.box5,.box6 {
+    background-size: cover
+}
+section.services .box1 {
+    background: url(../img/services/service-1.jpg) center center no-repeat
+}
+section.services .box2 {
+    background: url(../img/services/service-2.jpg) center center no-repeat
+}
+section.services .box3 {
+    background: url(../img/services/service-3.jpg) center center no-repeat
+}
+section.services .box4 {
+    background: url(../img/services/service-4.jpg) center center no-repeat
+}
+section.services .box5 {
+    background: url(../img/services/service-5.jpg) center center no-repeat
+}
+section.services .box6 {
+    background: url(../img/services/service-6.jpg) center center no-repeat
+}
+section.services .box7 {
+    background: url(../img/services/service-7.jpg) center center no-repeat
+}
+section.services .box8 {
+    background: url(../img/services/service-8.jpg) center center no-repeat
+}
+section.services .box .over {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,.8);
+    z-index: 1;
+    opacity: 0;
+    transition: all .5s;
+    overflow: hidden;
+    text-align: center;
+    padding: 30px 10px;
+    border: 20px solid transparent
+}
+section.services .box .over h3, section.services .box .over p {
+    transform: translateY(-100px);
+    transition: all .5s;
+}
+section.services .box .over h3 {
+    margin-bottom: 30px;
+    color: #555;
+    font-size: 15px;
+    font-weight: bold;
+}
+section.services .box .over p {
+    line-height: 2;
+    color: #3a3a3a;
+    line-height: 1.8;
+    font-size: 14px;
+    direction: rtl
+}
+section.services .box  h4 {
+    position: absolute;
+    margin: auto;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px;
+    color: #555;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    bottom: 0;
+    background-color: #EEE;
+    transition: all .5s;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+section.services .box:hover .over {
+    opacity: 1;
+    border: 20px solid #E3E2E3
+}
+section.services .box:hover h4 {
+    bottom: -100%
+}
+section.services .box:hover .over h3, section.services .box:hover .over p  {
+    transform: translateY(0)
+}
+section.services .box img {
+    width: 100%;
+    height: 100%;
+    transition: all .5s;
+}
+/**** end services ****/
+
+/**** start call ****/
+section.call {
+    background: url(../img/54.jpg) center center fixed;
+    background-size: cover;
+    position: relative;
+    text-align: right;
+    padding: 60px 0;
+    z-index: 1;
+    overflow: hidden
+}
+section.call .title {
+    margin-bottom: 40px
+}
+section.call::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    background-color: rgba(16, 16, 16, 0.9);
+    top: 0;
+    z-index: -1
+}
+section.call h2.offer {
+    color: #FFF;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.8;
+}
+section.call .star {
+    font-size: 42px;
+    vertical-align: -webkit-baseline-middle;
+    color: #01c8b1;
+    line-height: 1;
+}
+section.call .title h2 {
+    color: #FFF
+}
+section.call p {
+    color: #FFF;
+    text-align: right;
+    margin-right: 0;
+    margin-bottom: 15px;
+    line-height: 2;
+    font-weight: bold;
+}
+section.call img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 37%;
+    opacity: .6
+}
+section.call .btn {
+    padding: 10px 15px;
+    background-color: #01c8b1;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 10px 0;
+    transition: all .5s;
+    border: 2px solid transparent;
+    margin-top: 15px;
+    margin: auto;
+    display: block;
+    max-width: 150px;
+}
+section.call .btn:hover {
+    border-radius: 0px 10px;
+    background-color: transparent;
+    border: 2px solid #888;
+    color: #FFF
+}
+section.call .btn i {
+    font-size: 22px
+}
+/**** end call ****/
+
+/**** start info section ****/
+section.info {
+    padding: 80px 0
+}
+section.info .content {
+    background-color: rgba(1, 200, 177, 0.77);
+    border-radius: 20px 20px 0 0 ;
+    margin-bottom: 70px
+}
+section.info .content .item {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+    perspective: 5000px
+}
+section.info .content  .item1 {
+    border-right: 1px solid #FFF
+}
+section.info .content  .item2 {
+    border-left: 1px solid #FFF
+}
+section.info .content .item i {
+    display: block;
+    font-size: 35px;
+    color: #FFF;
+    cursor: pointer
+}
+section.info .content .item h5 {
+    color: #FFF;
+    margin-top: 10px
+}
+section.info .content .item p {
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.7;
+    background-color:  #01c8b1;
+    bottom: -100%;
+    left: 0%;
+    z-index: -1;
+    color: #FFF;
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transform: rotateX(180deg);
+    transform-origin: top;
+    transition: transform .6s ease-out, opacity .3s ease-in-out;
+    padding: 0 20px
+}
+
+section.info .content .item p {
+    opacity: 1;
+    transform: rotateX(0deg);
+    box-shadow: 0px 40px 35px -45px #000000;
+    list-style: none
+}
+section.info .content .item p a {
+    color: #FFF;
+    font-size: 20px
+}
+/**** end info section ****/
+
+/**** end info section ****/
+section.contact {
+    margin-bottom: 50px
+}
+section.contact .form-control {
+	display: block;
+	width: 100%;
+	padding: 5px 15px;
+	font-size: 16px;
+    line-height: 1.6;
+	color: #444;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ddd;
+	border-radius: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	-webkit-transition: none;
+	-o-transition: none;
+	transition: none;
+}
+section.contact .form-group textarea {
+    resize: none
+}
+section.contact .form-control:focus {
+	outline: 0;
+	-webkit-box-shadow: 0 0 15px #ddd;
+	box-shadow: 0 0 15px #ddd;
+}
+.form-control::-webkit-input-placeholder {
+    color: #777;
+}
+.form-control:-moz-placeholder {
+    color: #777;
+}
+.form-control::-moz-placeholder {
+    color: #777;
+}
+.form-control:-ms-input-placeholder {
+    color: #777;
+}
+section.contact .map {
+    padding-top: 29px;
+    border: 5px solid rgba(218, 218, 218, 0.33);
+    padding: 5px 5px 0px 5px
+}
+section.contact .map iframe {
+    border: 4px solid #000;
+}
+section.contact .btn-custom {
+    width: 100%;
+    border-radius: 0;
+    transition: all .2s;
+    background-color: #eee;
+}
+section.contact .btn-custom:hover {
+    background-color: #01c8b1;
+    color: #FFF
+} 
+
+/**** copyright Section *****/
+#footer {
+	background: #191919;
+    padding: 20px 0
+}
+#footer p {
+	color: #d0d0d0;
+	font-size: 15px;
+    text-align: center;
+    margin-bottom: 0
+}
+#footer a {
+	color: #FFF;
+}
+#footer a:hover {
+	color: #ccc;
+}
+/**** end info section ****/
+
+
+

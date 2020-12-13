@@ -1,0 +1,59 @@
+@media (max-width: 992px) {
+    .mission_us .mission_us_text p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+    .about_us_text {
+        text-align: center!important;
+        margin-top: 20px
+    }
+    .services .serv_cont {
+        margin-bottom: 20px
+    }
+    .contact-num .num1,.contact-num .num2, .contact-num .num3, .contact-num .num4 {
+        border-radius: 0;
+    }
+    .contact-num .pl-0 {
+        padding-left: 15px!important
+    }
+    .contact-num .pr-0 {
+        padding-right: 15px!important
+    }
+    .contact-num .p-0 {
+        padding: 15px!important
+    }
+    .products .serv_cont {
+        margin-bottom: 30px
+    }
+    
+}
+
+@media (max-width: 767px) {
+    .mission_us .mission_us_text {
+        margin-bottom: 30px
+    }
+    .mission_us .mission_us_text p {
+        font-size: 14px;
+        line-height: 1.6;
+        height: auto
+    }
+}
+
+@media (max-width: 500px) {
+    .banner_part .banner_text p {
+        font-size: 19px;
+    }
+    .services .serv_cont h2 {
+        max-width: 85%
+    }
+    .main_menu .navbar .call {
+        width: 45%;
+    }
+    .main_menu .navbar .btn_1 {
+        font-size: 14px;
+        max-width: 200px;
+    }
+    .main_menu .navbar-brand img {
+        max-width: 75px;
+    }
+}
